@@ -1,0 +1,49 @@
+[Writable]
+LogLevel = 'INFO'
+LogPath = 'hummingbird/logs/hummingbird-core.log'
+
+[Service]
+Host = '0.0.0.0'
+ServerBindAddr = '' # Leave blank so default to Host value unless different value is needed.
+Port = 58081
+Protocol = 'http'
+Timeout = 45000
+
+[RpcServer]
+Address = '0.0.0.0:57081'
+UseTLS = false
+CertFile = ''
+KeyFile = ''
+
+[Clients]
+[Clients.Ekuiper]
+Protocol = 'http'
+Host = '127.0.0.1'
+Port = 9081
+
+[WebServer]
+Host = '0.0.0.0'
+Port = 3000
+Timeout = 120
+
+[Databases]
+[Databases.Metadata]
+[Databases.Metadata.Primary]
+#Type = 'sqlite'
+#DataSource = 'manifest/docker/db-data/core-data/core.db?_timeout=5000'
+Type = 'mysql'
+Dsn = 'root:123456@tcp(127.0.0.1:3306)/open-hummingbird?charset=utf8mb4&parseTime=True&loc=Local'
+
+[Databases.Data]
+[Databases.Data.Primary]
+#Type = 'leveldb'
+#DataSource = 'manifest/docker/db-data/leveldb-core-data/'
+Type = 'tdengine'
+Dsn = 'root:taosdata@ws(127.0.0.1:6041)/hummingbird'
+
+[MessageQueue]
+Protocol = 'tcp'
+Host = '127.0.0.1'
+Port = 58090
+Type = 'mqtt'
+PublishTopicPrefix = 'eventbus/in'

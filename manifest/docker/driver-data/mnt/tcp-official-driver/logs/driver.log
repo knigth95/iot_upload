@@ -1,0 +1,6 @@
+2025-02-22T19:18:28.935Z [34mINFO[0m server/server.go:325 Server starting ( [::]:39729 )
+2025-02-22T19:18:28.935Z [34mINFO[0m server/server.go:326 Server start success.
+2025-02-22T19:19:17.695Z [34mINFO[0m service/service.go:234 got stop signal, exit...
+2025-02-22T19:19:17.696Z [34mINFO[0m server/server.go:319 Server shutting down
+2025-02-22T19:19:17.696Z [34mINFO[0m server/server.go:322 Server shut down
+2025-02-22T19:19:17.696Z [34mINFO[0m server/server.go:337 Server stopped

@@ -1,0 +1,3 @@
+2025-02-22T19:18:40.825Z [34mINFO[0m server/http_server.go:72 Web server start successful [::8090]
+2025-02-22T19:18:40.825Z [34mINFO[0m server/server.go:325 Server starting ( [::]:44921 )
+2025-02-22T19:18:40.825Z [34mINFO[0m server/server.go:326 Server start success.
