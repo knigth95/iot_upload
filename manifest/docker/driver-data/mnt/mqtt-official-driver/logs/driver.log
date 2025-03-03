@@ -5,3 +5,10 @@
 2025-02-22T19:19:17.861Z [34mINFO[0m server/server.go:321 Server shutting down
 2025-02-22T19:19:17.861Z [34mINFO[0m server/server.go:324 Server shut down
 2025-02-22T19:19:17.861Z [34mINFO[0m server/server.go:339 Server stopped
+2025-02-23T07:32:46.150Z [34mINFO[0m client/mqtt_client.go:64 Connected
+2025-02-23T07:32:46.150Z [34mINFO[0m server/server.go:327 Server starting ( [::]:45211 )
+2025-02-23T07:32:46.154Z [34mINFO[0m server/server.go:328 Server start success.
+2025-02-23T07:42:47.545Z [34mINFO[0m service/service.go:234 got stop signal, exit...
+2025-02-23T07:42:47.546Z [34mINFO[0m server/server.go:321 Server shutting down
+2025-02-23T07:42:47.546Z [34mINFO[0m server/server.go:324 Server shut down
+2025-02-23T07:42:47.546Z [34mINFO[0m server/server.go:339 Server stopped
