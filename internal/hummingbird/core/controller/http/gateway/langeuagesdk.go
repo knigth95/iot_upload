@@ -47,7 +47,7 @@ func (ctl *controller) LanguageSdkSearch(c *gin.Context) {
 			"hAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRNhM+TSZPpoXTKO/ZsHD6w9kg2hK+/GmiqVHhZPXp6MWk8HXNEk0MCk/Tjc" +
 			"Ov5oSD82zjeLo8bkX4dpL9O5ENTAlnW8Belr0ZEs7mW8CcuJjZEb6nRafS+cyCMM2Xvo9CYH7uPV8k1Qt7vem8BJgTF5+L5kBxYVowBpdlpXhNwvZDiBChfAgRIpQPIUKE8iFEiFA" +
 			"+hAgRyocQIUL5ECJEKB9ChAjlQ4gQoXwIESKUDyFChPIhRIhQPoQIEcqHECFC+RAiRCgfQoQI5UOIEKF8CBEilA8hQoTyIUSIUD6ECBHKhxBhVVcnXehqp2f+Ag5ihjFgr47/AAAAAElFTkSuQmCC",
-		"addr": "https://doc.hummingbird.winc-link.com/",
+		"addr": "https://github.com/knigth95",
 	}
 	responseData["sdk_language"] = list
 	httphelper.ResultSuccess(responseData, c.Writer, lc)

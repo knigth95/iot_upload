@@ -25,7 +25,7 @@ import (
 )
 
 const (
-	HummingbridDoc = "https://doc.hummingbird.winc-link.com/"
+	HummingbridDoc = "https://github.com/knigth95"
 )
 
 type homePageApp struct {

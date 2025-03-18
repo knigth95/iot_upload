@@ -201,7 +201,7 @@ const Lyaout: React.FC<LyaoutProps> = () => {
             }}>
             <img src={require('@/assets/images/newlogo.png')} alt="" style={{ marginTop: '15px', marginLeft: '-20px', height: '25px', float: 'left' }}/>
             <div style={{ fontSize: '14px', marginLeft: '20px', fontWeight: 600 }}>
-              Hummingbird
+              Lightweight intelligent IoT platform
             </div>
           </div>
           {/* <Menu
@@ -217,7 +217,7 @@ const Lyaout: React.FC<LyaoutProps> = () => {
           </Badge> */}
           <div></div>
           <BookOutlined onClick={() => {
-            window.open('https://github.com/knigth95/College-Class')
+            window.open('https://github.com/knigth95')
           }}/>
           <Dropdown
             menu={{ items }}

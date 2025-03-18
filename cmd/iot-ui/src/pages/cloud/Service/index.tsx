@@ -62,7 +62,7 @@ const ServiceMarket: React.FC<ServiceMarketProps> = () => {
     <>
       {contextHolder}
       <AdvanceBreadcrumb
-        title="插件市场"
+        title="插件工具"
         describe="iot平台提供云插件功能，待完善。"
         background={require('@/assets/images/head-bg.8b029587.png')}
       />

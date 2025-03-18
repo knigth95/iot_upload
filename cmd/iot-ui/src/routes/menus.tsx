@@ -30,8 +30,8 @@ const menus = [
     key: '/cloud',
     icon: <ApiOutlined />,
     children: [
-      { label: '插件市场', key: '/cloud/service' },
-      { label: '我的插件', key: '/cloud/myservice' },
+      { label: '插件工具', key: '/cloud/service' },
+      { label: '我的工具', key: '/cloud/myservice' },
     ],
   },
   {
@@ -54,7 +54,7 @@ const menus = [
     ],
   },
   {
-    label: '工具与文档',
+    label: '相关文档',
     key: '/documents/documents',
     icon: <BookOutlined />,
   },
