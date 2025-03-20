@@ -1,0 +1,1174 @@
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,126273c3-defa-45a6-afbc-b504c197315b
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[31m[error] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/messageapp.go:66 init ekuiper stream failed error:Post "http://ekuiper:9081": dial tcp 172.18.0.3:9081: connect: connection refused
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/02/22 19:18:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/02/22 19:18:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/02/22 19:18:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,201
+[32m[info] [0m2025/02/22 19:18:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:59 init ekuiper stream success
+[32m[info] [0m2025/02/22 19:18:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:251 websocket req {"code":10002,"data":{"id":"53525821","run_status":1}}
+[32m[info] [0m2025/02/22 19:18:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc0009fc0c0]
+[32m[info] [0m2025/02/22 19:18:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:211 dockerCustomParams: {user: cpuShares:0 memory:0 memorySwap:0 dns:[] dnsSearch:[] restart: env:[] runtime: mnt:[] port:[]},
+[32m[info] [0m2025/02/22 19:18:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:212 binds: [/home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/run-config/tcp-official-driver.toml:/etc/driver/res/configuration.toml /home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/mnt/tcp-official-driver:/mnt]
+[32m[info] [0m2025/02/22 19:18:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:213 Image:{Id:sha256:145e20bfdf8de69f64f8defd612801e369f63e55ab0ae4b85bfd315bc0512416 RepoTags:[registry.cn-shanghai.aliyuncs.com/winc-driver/tcp-driver:1.0]}
+[32m[info] [0m2025/02/22 19:18:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:214 thisRunMode:docker_hummingbird
+[32m[info] [0m2025/02/22 19:18:29 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:251 status: running
+[32m[info] [0m2025/02/22 19:18:29 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc0004e8e40]
+[32m[info] [0m2025/02/22 19:18:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:200 websocket to resp data: {"code":10002,"data":{"success":true,"errorCode":0,"successMsg":"驱动实例  运行/停止成功","result":{"id":"53525821","run_status":1}}}
+[32m[info] [0m2025/02/22 19:18:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:251 websocket req {"code":10002,"data":{"id":"13021865","run_status":1}}
+[32m[info] [0m2025/02/22 19:18:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc0009fc240]
+[32m[info] [0m2025/02/22 19:18:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:211 dockerCustomParams: {user: cpuShares:0 memory:0 memorySwap:0 dns:[] dnsSearch:[] restart: env:[] runtime: mnt:[] port:[]},
+[32m[info] [0m2025/02/22 19:18:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:212 binds: [/home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/run-config/mqtt-official-driver.toml:/etc/driver/res/configuration.toml /home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/mnt/mqtt-official-driver:/mnt]
+[32m[info] [0m2025/02/22 19:18:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:213 Image:{Id:sha256:866e1bfc6a056e6d47f405a65d2497fbee4f0f8e7ea0f24f00145744107c808d RepoTags:[registry.cn-shanghai.aliyuncs.com/winc-driver/mqtt-driver:1.0]}
+[32m[info] [0m2025/02/22 19:18:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:214 thisRunMode:docker_hummingbird
+[32m[info] [0m2025/02/22 19:18:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:251 status: running
+[32m[info] [0m2025/02/22 19:18:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc00065a0c0]
+[32m[info] [0m2025/02/22 19:18:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:200 websocket to resp data: {"code":10002,"data":{"success":true,"errorCode":0,"successMsg":"驱动实例  运行/停止成功","result":{"id":"13021865","run_status":1}}}
+[32m[info] [0m2025/02/22 19:18:40 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:251 websocket req {"code":10002,"data":{"id":"41659352","run_status":1}}
+[32m[info] [0m2025/02/22 19:18:40 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc0009fd500]
+[32m[info] [0m2025/02/22 19:18:40 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:211 dockerCustomParams: {user: cpuShares:0 memory:0 memorySwap:0 dns:[] dnsSearch:[] restart: env:[] runtime: mnt:[] port:[]},
+[32m[info] [0m2025/02/22 19:18:40 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:212 binds: [/home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/run-config/http-official-driver.toml:/etc/driver/res/configuration.toml /home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/mnt/http-official-driver:/mnt]
+[32m[info] [0m2025/02/22 19:18:40 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:213 Image:{Id:sha256:9770b6d1369c49ae66ebd74ae1df586456260310b5a8e0a86a90b9354853fdd4 RepoTags:[registry.cn-shanghai.aliyuncs.com/winc-driver/http-driver:1.0]}
+[32m[info] [0m2025/02/22 19:18:40 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:214 thisRunMode:docker_hummingbird
+[32m[info] [0m2025/02/22 19:18:41 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:251 status: running
+[32m[info] [0m2025/02/22 19:18:41 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc0004e8fc0]
+[32m[info] [0m2025/02/22 19:18:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:200 websocket to resp data: {"code":10002,"data":{"success":true,"errorCode":0,"successMsg":"驱动实例  运行/停止成功","result":{"id":"41659352","run_status":1}}}
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/02/22 19:19:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[http-official-driver]
+[32m[info] [0m2025/02/22 19:19:18 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/02/23 05:15:08 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/02/23 05:15:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/02/23 05:15:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/02/23 05:15:09 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,56c70d0f-1b4f-4b54-85f0-7ee6f57a11b8
+[32m[info] [0m2025/02/23 05:15:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/02/23 05:15:09 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/02/23 05:15:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/02/23 05:15:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/02/23 05:15:09 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/02/23 05:15:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/02/23 05:15:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/02/23 05:15:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/02/23 05:15:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/02/23 05:15:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/02/23 05:15:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/02/23 07:32:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:251 websocket req {"code":10002,"data":{"id":"53525821","run_status":1}}
+[32m[info] [0m2025/02/23 07:32:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc0007d4a80]
+[32m[info] [0m2025/02/23 07:32:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:211 dockerCustomParams: {user: cpuShares:0 memory:0 memorySwap:0 dns:[] dnsSearch:[] restart: env:[] runtime: mnt:[] port:[]},
+[32m[info] [0m2025/02/23 07:32:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:212 binds: [/home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/run-config/tcp-official-driver.toml:/etc/driver/res/configuration.toml /home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/mnt/tcp-official-driver:/mnt]
+[32m[info] [0m2025/02/23 07:32:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:213 Image:{Id:sha256:145e20bfdf8de69f64f8defd612801e369f63e55ab0ae4b85bfd315bc0512416 RepoTags:[registry.cn-shanghai.aliyuncs.com/winc-driver/tcp-driver:1.0]}
+[32m[info] [0m2025/02/23 07:32:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:214 thisRunMode:docker_hummingbird
+[32m[info] [0m2025/02/23 07:32:39 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:251 status: running
+[32m[info] [0m2025/02/23 07:32:39 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc0007d5e00]
+[32m[info] [0m2025/02/23 07:32:41 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:200 websocket to resp data: {"code":10002,"data":{"success":true,"errorCode":0,"successMsg":"驱动实例  运行/停止成功","result":{"id":"53525821","run_status":1}}}
+[32m[info] [0m2025/02/23 07:32:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:251 websocket req {"code":10002,"data":{"id":"13021865","run_status":1}}
+[32m[info] [0m2025/02/23 07:32:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc001cd1380]
+[32m[info] [0m2025/02/23 07:32:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:211 dockerCustomParams: {user: cpuShares:0 memory:0 memorySwap:0 dns:[] dnsSearch:[] restart: env:[] runtime: mnt:[] port:[]},
+[32m[info] [0m2025/02/23 07:32:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:212 binds: [/home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/run-config/mqtt-official-driver.toml:/etc/driver/res/configuration.toml /home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot_docker/manifest/docker/driver-data/mnt/mqtt-official-driver:/mnt]
+[32m[info] [0m2025/02/23 07:32:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:213 Image:{Id:sha256:866e1bfc6a056e6d47f405a65d2497fbee4f0f8e7ea0f24f00145744107c808d RepoTags:[registry.cn-shanghai.aliyuncs.com/winc-driver/mqtt-driver:1.0]}
+[32m[info] [0m2025/02/23 07:32:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:214 thisRunMode:docker_hummingbird
+[32m[info] [0m2025/02/23 07:32:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:251 status: running
+[32m[info] [0m2025/02/23 07:32:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:403 Container Networks map[docker_hummingbird:0xc001f483c0]
+[32m[info] [0m2025/02/23 07:32:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/controller/http/websocket/server.go:200 websocket to resp data: {"code":10002,"data":{"success":true,"errorCode":0,"successMsg":"驱动实例  运行/停止成功","result":{"id":"13021865","run_status":1}}}
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[http-official-driver]
+[32m[info] [0m2025/02/23 07:42:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,9bbccac0-6765-4c7a-812f-885f11aaa115
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/02/23 08:09:24 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/02/23 08:09:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/02/23 08:09:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/02/23 08:09:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/02/23 08:09:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[31m[error] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[http-official-driver]
+[32m[info] [0m2025/02/23 17:49:31 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/02/24 11:35:19 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/02/24 11:35:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/02/24 11:35:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/02/24 11:35:20 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,b5c53f46-03af-45be-82fe-621c13ff2f91
+[32m[info] [0m2025/02/24 11:35:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/02/24 11:35:20 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/02/24 11:35:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/02/24 11:35:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/02/24 11:35:20 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/02/24 11:35:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/02/24 11:35:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/02/24 11:35:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/02/24 11:35:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/02/24 11:35:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/02/24 11:35:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[31m[error] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 9a07ba0b-6dbb-4792-884f-f4e4bbbb3844
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/02/24 16:55:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/02/25 11:41:26 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/02/25 11:41:26 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/02/25 11:41:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/02/25 11:41:27 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,d5e300fd-3fe7-485b-99db-0d9d07543eeb
+[32m[info] [0m2025/02/25 11:41:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/02/25 11:41:27 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/02/25 11:41:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/02/25 11:41:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/02/25 11:41:27 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/02/25 11:41:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/02/25 11:41:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/02/25 11:41:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/02/25 11:41:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/02/25 11:41:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/02/25 11:41:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[31m[error] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[31m[error] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[31m[error] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 936d2380-a4ac-454b-8b10-eccc9705434c
+[32m[info] [0m2025/02/25 17:16:22 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/02/26 11:53:45 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/02/26 11:53:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/02/26 11:53:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/02/26 11:53:46 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,c4093620-1ce0-4440-9755-845025d730e8
+[32m[info] [0m2025/02/26 11:53:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/02/26 11:53:46 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/02/26 11:53:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/02/26 11:53:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/02/26 11:53:46 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/02/26 11:53:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/02/26 11:53:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/02/26 11:53:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/02/26 11:53:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/02/26 11:53:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/02/26 11:53:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[31m[error] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, f94ab6d1-5b04-450b-9dd5-06a5cdcc0ac6
+[32m[info] [0m2025/02/26 17:14:28 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/02/27 12:03:02 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/02/27 12:03:02 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/02/27 12:03:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/02/27 12:03:03 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,6e76e2ef-bd7b-4423-bc7d-1d8c2633874c
+[32m[info] [0m2025/02/27 12:03:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/02/27 12:03:03 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/02/27 12:03:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/02/27 12:03:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/02/27 12:03:03 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/02/27 12:03:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/02/27 12:03:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/02/27 12:03:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/02/27 12:03:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/02/27 12:03:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/02/27 12:03:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[31m[error] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 973703b1-b635-455b-8395-b8070138300e
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[31m[error] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/02/27 16:41:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/02/28 12:00:48 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/02/28 12:00:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/02/28 12:00:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/02/28 12:00:49 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,47370d72-7e17-459e-8dec-6a3fe51a4f76
+[32m[info] [0m2025/02/28 12:00:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/02/28 12:00:49 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/02/28 12:00:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/02/28 12:00:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/02/28 12:00:49 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/02/28 12:00:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/02/28 12:00:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/02/28 12:00:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/02/28 12:00:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/02/28 12:00:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/02/28 12:00:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[31m[error] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[31m[error] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, eb2ee9ee-da6f-4abe-abd7-0fce8309f0f4
+[32m[info] [0m2025/02/28 16:49:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/01 05:52:43 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/01 05:52:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/01 05:52:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/01 05:52:44 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,14cf9c8e-4765-434d-89a7-b71061dd6008
+[32m[info] [0m2025/03/01 05:52:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/01 05:52:44 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/01 05:52:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/01 05:52:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/01 05:52:44 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/01 05:52:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/01 05:52:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/01 05:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/01 05:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/01 05:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/01 05:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[31m[error] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 0321dcb7-b736-491f-b584-811785ae19f9
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/01 17:10:30 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/02 04:44:47 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/02 04:44:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/02 04:44:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/02 04:44:48 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,9de7e841-1c1a-4e4e-8dd4-814039a0e143
+[32m[info] [0m2025/03/02 04:44:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/02 04:44:48 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/02 04:44:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/02 04:44:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/02 04:44:48 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/02 04:44:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/02 04:44:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/02 04:44:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/02 04:44:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/02 04:44:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/02 04:44:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[31m[error] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[31m[error] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, b3c69e53-b9f8-485c-a6ba-75103ffb90e5
+[32m[info] [0m2025/03/02 18:09:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/02 18:10:26 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/02 18:10:26 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,741b6ee6-1a9d-40fc-a934-504128bf69d2
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 4e5ef579-2d89-43ff-bd12-3bfc4f543ec1
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/02 18:10:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,758a6eae-ccf5-43fb-9300-e14d6b701556
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/03 11:38:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/03 11:38:42 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/03 11:38:42 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/03 11:38:42 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/03 11:38:42 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[31m[error] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[31m[error] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 22bef1ec-92bd-4a6c-94eb-120e0e80953b
+[32m[info] [0m2025/03/03 19:15:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/04 11:59:49 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/04 11:59:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/04 11:59:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/04 11:59:50 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,655f5bcf-1df4-4310-8356-8c22f56d5138
+[32m[info] [0m2025/03/04 11:59:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/04 11:59:50 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/04 11:59:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/04 11:59:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/04 11:59:50 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/04 11:59:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/04 11:59:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/04 12:00:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/04 12:00:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/04 12:00:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/04 12:00:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[31m[error] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[31m[error] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[31m[error] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 515bcd3e-adf6-4f11-93af-c22b8d735f56
+[32m[info] [0m2025/03/04 19:14:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/05 12:11:33 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/05 12:11:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/05 12:11:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/05 12:11:34 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,f8e61a92-5591-4015-9b23-c43003d378bc
+[32m[info] [0m2025/03/05 12:11:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/05 12:11:34 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/05 12:11:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/05 12:11:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/05 12:11:34 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/05 12:11:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/05 12:11:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/05 12:11:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/05 12:11:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/05 12:11:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/05 12:11:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, cb6a3557-cd64-40e1-836c-79f964a817e6
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/05 18:03:19 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/05 18:04:02 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/05 18:04:02 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/05 18:04:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/05 18:04:03 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,1cf99c2a-e747-4e90-ba4c-5dcb65609d67
+[32m[info] [0m2025/03/05 18:04:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/05 18:04:03 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/05 18:04:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/05 18:04:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/05 18:04:03 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/05 18:04:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/05 18:04:03 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/05 18:04:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/05 18:04:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/05 18:04:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/05 18:04:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[31m[error] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 14f71e98-3ad6-4df3-8fb9-09d84eb4b173
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/05 18:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/06 12:04:56 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/06 12:04:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/06 12:04:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/06 12:04:57 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,cbf2f34f-09f6-4b36-b862-565bd28ee926
+[32m[info] [0m2025/03/06 12:04:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/06 12:04:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/06 12:04:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/06 12:04:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/06 12:04:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/06 12:04:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/06 12:04:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/06 12:05:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/06 12:05:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/06 12:05:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/06 12:05:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[31m[error] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 2aa6df25-51a2-44cd-9ece-212f8b56855d
+[32m[info] [0m2025/03/06 18:21:09 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/07 16:43:59 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/07 16:43:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/07 16:44:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/07 16:44:00 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,2c2f3afa-e8e9-4efc-9b9a-76adf8f5118b
+[32m[info] [0m2025/03/07 16:44:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/07 16:44:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/07 16:44:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/07 16:44:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/07 16:44:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/07 16:44:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/07 16:44:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/07 16:44:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/07 16:44:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/07 16:44:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/07 16:44:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[31m[error] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 3f38e6f7-4b0a-41fa-b204-92b0486baa2b
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/07 18:04:50 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/08 05:41:33 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/08 05:41:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/08 05:41:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/08 05:41:34 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,6d894be8-28af-41be-9087-91fb1b382eca
+[32m[info] [0m2025/03/08 05:41:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/08 05:41:34 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/08 05:41:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/08 05:41:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/08 05:41:34 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/08 05:41:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/08 05:41:34 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/08 05:41:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/08 05:41:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/08 05:41:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/08 05:41:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[31m[error] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[31m[error] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[31m[error] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, ccab18f3-3736-4202-9188-45359281b63d
+[32m[info] [0m2025/03/08 19:22:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/09 05:43:57 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/09 05:43:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/09 05:43:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/09 05:43:58 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,b33cb0ac-3ffa-420b-9b7f-f7c9d8d6fe2a
+[32m[info] [0m2025/03/09 05:43:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/09 05:43:58 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/09 05:43:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/09 05:43:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/09 05:43:58 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/09 05:43:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/09 05:43:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/09 05:44:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/09 05:44:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/09 05:44:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/09 05:44:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[31m[error] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[31m[error] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[31m[error] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, a2d03fd4-2cba-416e-b375-708800c9776c
+[32m[info] [0m2025/03/09 18:25:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/10 12:02:16 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/10 12:02:16 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/10 12:02:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/10 12:02:17 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,2925731f-3234-4b74-83d2-b5fcb7368877
+[32m[info] [0m2025/03/10 12:02:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/10 12:02:17 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/10 12:02:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/10 12:02:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/10 12:02:17 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/10 12:02:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/10 12:02:17 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/10 12:02:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/10 12:02:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/10 12:02:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/10 12:02:27 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[31m[error] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, d83c6b8b-5938-477c-9eb3-5644eb253e92
+[32m[info] [0m2025/03/10 12:13:32 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/10 12:14:12 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/10 12:14:12 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/10 12:14:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/10 12:14:13 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,5b277179-b026-4954-b366-d4dc0a2ad543
+[32m[info] [0m2025/03/10 12:14:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/10 12:14:13 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/10 12:14:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/10 12:14:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/10 12:14:13 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/10 12:14:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/10 12:14:13 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/10 12:14:23 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/10 12:14:23 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/10 12:14:23 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/10 12:14:23 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, ec2d144e-62ac-4293-b2ca-91406f3f248d
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/10 12:14:25 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,b12ad2ce-fea1-453c-a6ed-5c48c5db742b
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/10 12:22:58 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/10 12:23:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/10 12:23:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/10 12:23:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/10 12:23:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[31m[error] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 3389b7fa-ecb2-4d25-9bd9-ce250466f64f
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/10 19:08:44 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/11 13:52:53 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/11 13:52:53 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/11 13:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/11 13:52:54 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,8efdb0a8-6313-4065-88ec-b02a6ec3306c
+[32m[info] [0m2025/03/11 13:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/11 13:52:54 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/11 13:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/11 13:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/11 13:52:54 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/11 13:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/11 13:52:54 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/11 13:53:04 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/11 13:53:04 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/11 13:53:04 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/11 13:53:04 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[31m[error] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[31m[error] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, c060e210-d08d-44bd-a6b5-24cdab0b29ec
+[32m[info] [0m2025/03/11 19:06:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/12 11:51:45 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/12 11:51:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/12 11:51:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/12 11:51:46 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,f885d79b-f86a-4718-a0c5-961696caf547
+[32m[info] [0m2025/03/12 11:51:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/12 11:51:46 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/12 11:51:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/12 11:51:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/12 11:51:46 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/12 11:51:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/12 11:51:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/12 11:51:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/12 11:51:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/12 11:51:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/12 11:51:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[31m[error] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 583b51aa-f4c6-493f-bb43-1c528bfe72e7
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/12 17:58:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/13 12:13:38 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/13 12:13:38 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/13 12:13:39 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/13 12:13:39 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,ef3d9a01-d374-4f30-8d0b-9cfe46d9d439
+[32m[info] [0m2025/03/13 12:13:39 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/13 12:13:39 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/13 12:13:39 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/13 12:13:39 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/13 12:13:39 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/13 12:13:39 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/13 12:13:39 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/13 12:13:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/13 12:13:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/13 12:13:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/13 12:13:49 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[31m[error] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 25f71531-b337-4cf4-90df-5bc605cb8844
+[32m[info] [0m2025/03/13 17:26:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/13 17:31:59 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/13 17:31:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/13 17:32:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/13 17:32:00 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,a3a370a9-0ee1-4047-98c5-d2f9082d7177
+[32m[info] [0m2025/03/13 17:32:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/13 17:32:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/13 17:32:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/13 17:32:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/13 17:32:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/13 17:32:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/13 17:32:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/13 17:32:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/13 17:32:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/13 17:32:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/13 17:32:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[31m[error] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, eabcc475-2b00-4c81-acbc-a7489c492498
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/13 18:37:51 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/14 12:23:07 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/14 12:23:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/14 12:23:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/14 12:23:10 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,c4efc07f-9950-4835-b3a6-0e1cbcfaeae5
+[32m[info] [0m2025/03/14 12:23:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/14 12:23:10 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/14 12:23:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/14 12:23:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/14 12:23:10 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/14 12:23:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/14 12:23:10 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/14 12:23:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/14 12:23:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/14 12:23:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/14 12:23:20 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[31m[error] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[31m[error] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, c14b2d7f-955b-43e0-92c9-e868d17099d8
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/14 18:28:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,cfbc2c2a-2609-42dc-b5eb-3dc8be6635b3
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/15 00:50:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/15 00:50:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/15 00:50:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/15 00:50:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/15 00:50:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, c907ebe4-8101-4868-b434-3f69bd6bda18
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/15 05:43:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/16 23:57:59 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/16 23:57:59 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/16 23:58:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/16 23:58:00 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,79806641-4ca8-4725-8503-b9d0b2eaf692
+[32m[info] [0m2025/03/16 23:58:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/16 23:58:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/16 23:58:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/16 23:58:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/16 23:58:00 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/16 23:58:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/16 23:58:00 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[31m[error] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 64ed4866-0b98-4bd9-85f8-5a80a961e51e
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/16 23:58:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/17 00:01:05 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/17 00:01:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/17 00:01:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/17 00:01:06 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,6e30e23a-4bbd-44ad-81e1-6d38ecb66706
+[32m[info] [0m2025/03/17 00:01:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/17 00:01:06 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/17 00:01:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/17 00:01:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/17 00:01:06 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/17 00:01:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/17 00:01:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/17 00:01:16 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/17 00:01:16 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/17 00:01:16 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/17 00:01:16 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, e444bf59-b0e8-40b9-8c30-bff6f31d2c55
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/16 16:02:07 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,6fa5ba61-b701-4527-8c35-9d0bc5a8e02b
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/16 16:04:33 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/16 16:04:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/16 16:04:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/16 16:04:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/16 16:04:43 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[31m[error] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[31m[error] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, 36fb707d-6fa1-4393-bbd8-ca8a54a0cec3
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/16 16:04:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,db11099a-2bf1-4eb1-9c1e-51a0ebafae6a
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/16 16:12:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/16 16:13:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/16 16:13:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/16 16:13:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/16 16:13:06 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[31m[error] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[31m[error] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, f8d488e1-97e3-4433-bb11-da5411948503
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/16 16:21:08 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,2fab4028-9b51-4264-9fbf-a4f4ec0d2c8a
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/16 16:21:52 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/16 16:22:02 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/16 16:22:02 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/16 16:22:02 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/16 16:22:02 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[31m[error] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, a9598702-18df-4990-8903-341ddd535494
+[32m[info] [0m2025/03/16 17:12:36 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/17 11:59:45 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/17 11:59:45 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/17 11:59:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/17 11:59:46 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,5e4538f2-78e7-482c-acb2-231af9f0b087
+[32m[info] [0m2025/03/17 11:59:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/17 11:59:46 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/17 11:59:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/17 11:59:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/17 11:59:46 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/17 11:59:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/17 11:59:46 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/17 11:59:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/17 11:59:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/17 11:59:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/17 11:59:56 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[31m[error] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:110 gateway offline, mqttclient disconnect: EOF, fc635767-7ead-4297-8912-72d8f12825e7
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:41 ekuiper mqtt disconnect
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[31m[error] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/17 17:57:57 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/18 11:52:37 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/18 11:52:37 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/18 11:52:38 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/18 11:52:38 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,5635fc19-1d81-4303-bf17-70b76ce98a5b
+[32m[info] [0m2025/03/18 11:52:38 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/18 11:52:38 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/18 11:52:38 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/18 11:52:38 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/18 11:52:38 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/18 11:52:38 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/18 11:52:38 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/18 11:52:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/18 11:52:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/18 11:52:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/18 11:52:48 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/tools/sqldb/sqlite/gorm.go:64 sqlite open started dataSource: hummingbird/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,636ad5d5-642b-4b19-a1c9-207b6333dce8
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/messageapp/ekuipermessage.go:37 ekuiper mqtt connect
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/init.go:97 init rpc server
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/03/18 12:50:05 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/03/18 12:50:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:49 init ekuiper stream start
+[32m[info] [0m2025/03/18 12:50:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:50 ekuiper stream start resp code,400
+[32m[info] [0m2025/03/18 12:50:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:64 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/03/18 12:50:15 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/initialize/initdata.go:71 init ekuiper stream plug success
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 53525821
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:105 close to flushImageMap
+[31m[error] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[tcp-official-driver]
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/manager.go:119 close to flushContainerMap
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/application/dmi/docker/app.go:56 stop docker instance[http-official-driver]
+[32m[info] [0m2025/03/18 17:27:47 [iot-core] github.com/winc-link/hummingbird/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
