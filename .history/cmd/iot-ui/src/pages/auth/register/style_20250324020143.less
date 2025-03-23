@@ -1,0 +1,63 @@
+// 复用登录页样式基础上重命名类名
+@import "../login/style.less";
+
+.login {
+  &:extend(.login); // 继承登录页基础样式
+  // 重命名类名避免冲突
+  .register-content {
+    &:extend(.login-content);
+  }
+  .register-content__left {
+    &:extend(.login-content__left);
+  }
+  .register-content__right {
+    &:extend(.login-content__right);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

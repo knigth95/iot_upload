@@ -1,0 +1,26 @@
+// 复用登录页样式基础上重命名类名
+@import "../login/style.less";
+
+.login {
+  // 继承所有登录页基础样式
+  &:extend(.login all);
+  
+  .register-content {
+    &:extend(.login-content all);
+    
+    &__right {
+      &:extend(.login-content__right all);
+      
+      // 保持表单元素样式一致
+      .ant-input, .ant-input-password {
+        &:extend(.login-form input);
+      }
+    }
+  }
+
+
+
+
+
+
+}

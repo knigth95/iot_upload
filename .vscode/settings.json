@@ -20,5 +20,11 @@
             "name": "iot-lite",
             "database": "/home/knight/Desktop/College-Class/毕设选题/毕业设计zzm/test/iot/manifest/docker/db-data/core-data/core.db"
         }
-    ]
+    ],
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "marscode.codeCompletionPro": {
+        "enableCodeCompletionPro": true
+    }
 }
