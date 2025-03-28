@@ -31,13 +31,12 @@ func RegisterGateway(engine *gin.Engine, dic *di.Container) {
 	v1 := engine.Group("/api/v1")
 	v1.GET("/swagger/*any", gs.WrapHandler(swaggerFiles.Handler))
 
-	// 登录路由
-	v1.GET("auth/login", ctl.Login)  
+	// 在RegisterGateway函数中添加
+	v1.POST("auth/register", ctl.Register)
+
+	v1.POST("auth/login", ctl.Login)
 	v1.GET("auth/initInfo", ctl.InitInfo)
 	v1.POST("auth/init-password", ctl.InitPassword)
-
-	// 已存在注册路由配置
-	v1.POST("auth/register", ctl.Register)
 
 	v1.POST("ekuiper/alert", ctl.EkuiperAlert)
 	v1.POST("ekuiper/scene", ctl.EkuiperScene) //ekuiper 服务调用

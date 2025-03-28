@@ -24,14 +24,13 @@ import { Empty } from 'antd'
 import Register from '@/pages/auth/register'
 
 const router = createBrowserRouter([
-
-  {
-    path: '/auth/login',
-    element: <Login />,
-  },
   {
     path: '/auth/register',
     element: <Register />,
+  },
+  {
+    path: '/auth/login',
+    element: <Login />,
   },
   {
     path: '/',

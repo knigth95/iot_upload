@@ -2,23 +2,6 @@
 @import "../login/style.less";
 
 .login {
-  // 覆盖注册页右侧容器标题间距
-  .register-content__right {
-    .login-content__rightTitle {
-      margin-top: 100px; // 与登录页保持相同间距
-    }
-    
-    // 添加表单底部链接样式
-    .login-form {
-      .ant-form-item:last-child {
-        margin-bottom: 0;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.login {
   &:extend(.login); // 继承登录页基础样式
   // 重命名类名避免冲突
   .register-content {

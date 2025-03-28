@@ -36,6 +36,7 @@ export function initPassword<T> (data: any) {
   })
 }
 
+// 修改注册方法（第39-45行）
 export const Register = (data: {
   username: string;
   password: string;
