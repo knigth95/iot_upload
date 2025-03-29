@@ -108,7 +108,7 @@ export default function login () {
                       color: '#fefeff',
                       width: '40%',
                       height: '50px',
-                      marginTop: '50px',
+                      marginTop: '40px',
                     }}
                     htmlType="submit">
                     登录
@@ -120,7 +120,7 @@ export default function login () {
                       color: '#232F3E',
                       width: '40%',
                       height: '50px',
-                      marginTop: '60px',
+                      marginTop: '40px',
                       border: '1px solid #232F3E',
                     }}
                     onClick={() => navigate('/auth/register')}>
@@ -175,33 +175,40 @@ export default function login () {
               >
                 <Input.Password placeholder="确认密码" />
               </Form.Item>
-
               <Form.Item>
-                <Button
+                <div
                   style={{
-                    backgroundColor: '#232F3E',
-                    borderRadius: '40px',
-                    color: '#fefeff',
-                    width: '40%',
-                    height: '50px',
-                    marginTop: '50px',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    gap: '20px',
                   }}
-                  htmlType="submit">
-                  确定
-                </Button>
-                <Button
-                  style={{
-                    backgroundColor: '#f0f2f5',
-                    borderRadius: '40px',
-                    color: '#232F3E',
-                    width: '40%',
-                    height: '50px',
-                    marginTop: '60px',
-                    border: '1px solid #232F3E',
-                  }}
-                  onClick={() => navigate('/auth/register')}>
-                  注册
-                </Button>
+                >
+                  <Button
+                    style={{
+                      backgroundColor: '#232F3E',
+                      borderRadius: '40px',
+                      color: '#fefeff',
+                      width: '40%',
+                      height: '50px',
+                      marginTop: '40px',
+                    }}
+                    htmlType="submit">
+                    确定
+                  </Button>
+                  <Button
+                    style={{
+                      backgroundColor: '#f0f2f5',
+                      borderRadius: '40px',
+                      color: '#232F3E',
+                      width: '40%',
+                      height: '50px',
+                      marginTop: '40px',
+                      border: '1px solid #232F3E',
+                    }}
+                    onClick={() => navigate('/auth/register')}>
+                    注册
+                  </Button>
+                </div>
               </Form.Item>
             </Form>
           </div>)
