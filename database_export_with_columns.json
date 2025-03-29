@@ -1,0 +1,800 @@
+{
+  "actions": {
+    "columns": [
+      "id",
+      "product_id",
+      "code",
+      "name",
+      "description",
+      "require",
+      "call_type",
+      "input_params",
+      "output_params",
+      "tag",
+      "system",
+      "created",
+      "modified"
+    ],
+    "data": []
+  },
+  "advance_config": {
+    "columns": [
+      "id",
+      "log_level",
+      "persist_storage",
+      "storage_hour"
+    ],
+    "data": []
+  },
+  "alert_list": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "alert_rule_id",
+      "trigger_time",
+      "alert_result",
+      "status",
+      "treated_time",
+      "message",
+      "is_send"
+    ],
+    "data": []
+  },
+  "alert_rule": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "name",
+      "device_id",
+      "alert_type",
+      "alert_level",
+      "status",
+      "condition",
+      "sub_rule",
+      "notify",
+      "silence_time",
+      "description"
+    ],
+    "data": []
+  },
+  "category_template": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "category_key",
+      "category_name",
+      "scene"
+    ],
+    "data": [
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1016943056",
+        "category_key": "SensorSignalCollector",
+        "category_name": "传感器信号采集器",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1083528962",
+        "category_key": "EmergencyLight",
+        "category_name": "应急照明灯",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1272495504",
+        "category_key": "LightEnsor",
+        "category_name": "光照传感器",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1353473731",
+        "category_key": "Watch",
+        "category_name": "手表",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1376371266",
+        "category_key": "Siren",
+        "category_name": "声光报警器",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1427185741",
+        "category_key": "Lighting",
+        "category_name": "路灯照明",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1709184249",
+        "category_key": "Light",
+        "category_name": "灯",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1935151447",
+        "category_key": "Temperatureandhumiditysensor",
+        "category_name": "室内温湿度监测设备",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1939472643",
+        "category_key": "ConversionGateway",
+        "category_name": "通用网关",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "1954528545",
+        "category_key": "Lamp",
+        "category_name": "灯控开关",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "226718712",
+        "category_key": "TemperatureHumidityDetector",
+        "category_name": "温湿度检测",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "2486863848",
+        "category_key": "CustomCategory",
+        "category_name": "自定义品类",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "2585140665",
+        "category_key": "IlluminationSensor",
+        "category_name": "光照度传感器",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "2689841043",
+        "category_key": "Airconditionerthermostat",
+        "category_name": "空调温控器",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "3863022173",
+        "category_key": "CurrentTemperature",
+        "category_name": "室内温度传感器",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "656772030",
+        "category_key": "ZigbeeTemplate",
+        "category_name": "Zigbee功能模板",
+        "scene": "公共场景"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "754215611",
+        "category_key": "TempHumiUnit",
+        "category_name": "温湿度采集单元",
+        "scene": "公共场景"
+      }
+    ]
+  },
+  "data_resource": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "name",
+      "type",
+      "health",
+      "option"
+    ],
+    "data": []
+  },
+  "device": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "cloud_device_id",
+      "cloud_product_id",
+      "cloud_instance_id",
+      "drive_instance_id",
+      "name",
+      "status",
+      "description",
+      "product_id",
+      "secret",
+      "platform",
+      "install_location",
+      "last_sync_time",
+      "last_online_time",
+      "device_sn"
+    ],
+    "data": []
+  },
+  "doc": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "name",
+      "sort",
+      "jump_link"
+    ],
+    "data": []
+  },
+  "docker_config": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "address",
+      "account",
+      "password",
+      "salt_key"
+    ],
+    "data": []
+  },
+  "driver_classify": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "name"
+    ],
+    "data": [
+      {
+        "created": 0,
+        "modified": 1705585912560,
+        "id": "9001",
+        "name": "官方协议"
+      },
+      {
+        "created": 0,
+        "modified": 1705585912566,
+        "id": "9002",
+        "name": "网关"
+      },
+      {
+        "created": 0,
+        "modified": 1705585912574,
+        "id": "9004",
+        "name": "传感器"
+      },
+      {
+        "created": 0,
+        "modified": 1705585912579,
+        "id": "9005",
+        "name": "开关"
+      },
+      {
+        "created": 0,
+        "modified": 1705585912601,
+        "id": "9999",
+        "name": "其他"
+      }
+    ]
+  },
+  "events": {
+    "columns": [
+      "id",
+      "product_id",
+      "event_type",
+      "code",
+      "name",
+      "description",
+      "require",
+      "output_params",
+      "tag",
+      "system",
+      "created",
+      "modified"
+    ],
+    "data": []
+  },
+  "mqtt_auth": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "resource_id",
+      "resource_type",
+      "client_id",
+      "user_name",
+      "password"
+    ],
+    "data": [
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "37552909",
+        "resource_id": "41659352",
+        "resource_type": "driver",
+        "client_id": "1065104939",
+        "user_name": "edge-driver41659352",
+        "password": "3787224499"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "98265105",
+        "resource_id": "13021865",
+        "resource_type": "driver",
+        "client_id": "1832351887",
+        "user_name": "edge-driver13021865",
+        "password": "2455785131"
+      },
+      {
+        "created": 0,
+        "modified": 0,
+        "id": "36615856",
+        "resource_id": "53525821",
+        "resource_type": "driver",
+        "client_id": "927471392",
+        "user_name": "edge-driver53525821",
+        "password": "1889809481"
+      }
+    ]
+  },
+  "msg_gather": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "date",
+      "count"
+    ],
+    "data": [
+      {
+        "created": 1742000400002,
+        "modified": 1742000400002,
+        "id": "68158452",
+        "date": "2025-03-14",
+        "count": 0
+      },
+      {
+        "created": 1743094800001,
+        "modified": 1743094800001,
+        "id": "72264749",
+        "date": "2025-03-27",
+        "count": 0
+      }
+    ]
+  },
+  "product": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "name",
+      "key",
+      "cloud_product_id",
+      "cloud_instance_id",
+      "platform",
+      "protocol",
+      "node_type",
+      "net_type",
+      "data_format",
+      "last_sync_time",
+      "factory",
+      "description",
+      "status",
+      "extra"
+    ],
+    "data": []
+  },
+  "properties": {
+    "columns": [
+      "id",
+      "product_id",
+      "name",
+      "code",
+      "access_mode",
+      "require",
+      "type_spec",
+      "description",
+      "tag",
+      "system",
+      "created",
+      "modified"
+    ],
+    "data": []
+  },
+  "rule_engine": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "name",
+      "description",
+      "status",
+      "filter",
+      "data_resource_id"
+    ],
+    "data": []
+  },
+  "scene": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "name",
+      "description",
+      "status",
+      "conditions",
+      "actions"
+    ],
+    "data": []
+  },
+  "scene_log": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "scene_id",
+      "name",
+      "exec_res"
+    ],
+    "data": []
+  },
+  "thing_model_template": {
+    "columns": [
+      "created",
+      "modified",
+      "id",
+      "category_key",
+      "category_name",
+      "thing_model_json"
+    ],
+    "data": [
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1082388978",
+        "category_key": "emergency_button",
+        "category_name": "紧急按钮",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"lqi\",\"name\":\"信号强度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"65535\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"zsta\",\"name\":\"设备状态\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"batpt\",\"name\":\"电池电量\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1096887230",
+        "category_key": "EnvSensor",
+        "category_name": "九合一环境传感器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"10000\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"ppm\",\"unitName\":\"ppm\"},\"dataType\":\"INT\",\"description\":\"co2Value\",\"identifier\":\"CO2\",\"name\":\"二氧化碳\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"500\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"μg/m³\",\"unitName\":\"微克每立方米\"},\"dataType\":\"INT\",\"description\":\"pm2Value\",\"identifier\":\"PM25\",\"name\":\"PM25浓度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"500\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"μg/m³\",\"unitName\":\"微克每立方米\"},\"dataType\":\"INT\",\"description\":\"pm10Value\",\"identifier\":\"PM10\",\"name\":\"PM10浓度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"1\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"ppm\",\"unitName\":\"ppm\"},\"dataType\":\"DOUBLE\",\"description\":\"HCHOValue\",\"identifier\":\"HCHO\",\"name\":\"甲醛浓度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"50\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"ppm\",\"unitName\":\"ppm\"},\"dataType\":\"DOUBLE\",\"description\":\"TVOCValue\",\"identifier\":\"Tvoc\",\"name\":\"有机挥发物浓度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"FLOAT\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.1\",\"unit\":\"℃\",\"unitName\":\"摄氏度\"},\"dataType\":\"FLOAT\",\"description\":\"tempValue\",\"identifier\":\"Temperature\",\"name\":\"温度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"Power\",\"identifier\":\"Battery\",\"name\":\"电量\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"150000\",\"min\":\"0\",\"precise\":1,\"step\":\"0.01\",\"unit\":\"Lux\",\"unitName\":\"照度\"},\"dataType\":\"DOUBLE\",\"description\":\"lightValue\",\"identifier\":\"Env_lux\",\"name\":\"环境光照度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"FLOAT\",\"max\":\"100\",\"min\":\"0\",\"precise\":1,\"step\":\"0.1\",\"unit\":\"%RH\",\"unitName\":\"相对湿度\"},\"dataType\":\"FLOAT\",\"description\":\"humidityValue\",\"identifier\":\"Humidity\",\"name\":\"湿度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"离线告警\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"Offline_alarm\",\"outputData\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"在线\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"离线\",\"value\":1}],\"dataType\":\"BOOL\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"eventValue\",\"name\":\"事件值\",\"paraOrder\":0}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1519979404",
+        "category_key": "ZigbeeTemplate",
+        "category_name": "Zigbee功能模板",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"868M\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"915M\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"2_4G\",\"value\":2}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"ZB_Band\",\"name\":\"ZB带宽\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":128},\"dataType\":\"TEXT\",\"description\":\"\",\"identifier\":\"NETWORK_KEY\",\"name\":\"网络秘钥\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":128},\"dataType\":\"TEXT\",\"description\":\"\",\"identifier\":\"ZB_CO_MAC\",\"name\":\"ZB设备MAC地址\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":128},\"dataType\":\"TEXT\",\"description\":\"\",\"identifier\":\"EXT_PAN_ID\",\"name\":\"扩展网路标识\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"26\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"ZB_Channel\",\"name\":\"ZB通道\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":128},\"dataType\":\"TEXT\",\"description\":\"\",\"identifier\":\"ZB_PAN_ID\",\"name\":\"网路标识\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1682684124",
+        "category_key": "Doorbell",
+        "category_name": "门铃",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"LightSwitch\",\"name\":\"灯开关\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"静音\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"低音\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"中音\",\"value\":2},{\"dataType\":\"ENUM\",\"name\":\"高音\",\"value\":3}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"VolumeLevel\",\"name\":\"音量档位\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"无人\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"有人\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"MotionAlarmState\",\"name\":\"红外检测状态\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"VolumePercentage\",\"name\":\"音量百分比\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"故障上报\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"Error\",\"outputData\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"恢复正常\",\"value\":0}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"ErrorCode\",\"name\":\"故障代码\",\"paraOrder\":0}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1843363397",
+        "category_key": "WetCurtain",
+        "category_name": "湿帘",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"PowerSwitch\",\"name\":\"电源开关\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1858382471",
+        "category_key": "IlluminationSensor",
+        "category_name": "光照度传感器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"65535\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"Lux\",\"unitName\":\"照度\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"MeasuredIlluminance\",\"name\":\"光照度检测值\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1864612847",
+        "category_key": "CurrentTemperature",
+        "category_name": "室内温度传感器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"120\",\"min\":\"-40\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"℃\",\"unitName\":\"摄氏度\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentTemperature\",\"name\":\"温度\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentHumidity\",\"name\":\"湿度\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1865972890",
+        "category_key": "TemperatureHumidityDetector",
+        "category_name": "温湿度检测",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"FLOAT\",\"max\":\"120\",\"min\":\"-40\",\"precise\":7,\"step\":\"0.1\",\"unit\":\"°C\",\"unitName\":\"摄氏度\"},\"dataType\":\"FLOAT\",\"description\":\"\",\"identifier\":\"CurrentTemperature\",\"name\":\"当前温度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"FLOAT\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"FLOAT\",\"description\":\"\",\"identifier\":\"CurrentHumidity\",\"name\":\"当前湿度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"经度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"180\",\"min\":\"-180\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[2].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Longitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"纬度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"90\",\"min\":\"-90\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[2].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Latitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"海拔\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"9999\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"m\",\"unitName\":\"米\"},\"dataSpecs\":{\"$ref\":\"$.properties[2].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Altitude\",\"name\":\"地理位置\"},{\"childDataType\":\"ENUM\",\"childEnumSpecsDTO\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"childName\":\"坐标系统\",\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"dataType\":\"STRUCT\",\"identifier\":\"CoordinateSystem\",\"name\":\"地理位置\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"GeoLocation\",\"name\":\"地理位置\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1962903908",
+        "category_key": "CustomCategory",
+        "category_name": "自定义品类",
+        "thing_model_json": "{\"services\":[],\"properties\":[],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "1995697421",
+        "category_key": "Watch",
+        "category_name": "手表",
+        "thing_model_json": "{\"services\":[],\"properties\":[],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "2139002346",
+        "category_key": "Temperatureandhumiditysensor",
+        "category_name": "室内温湿度监测设备",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"120\",\"min\":\"-40\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"℃\",\"unitName\":\"摄氏度\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentTemperature\",\"name\":\"温度\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentHumidity\",\"name\":\"湿度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "225861378",
+        "category_key": "WiFiProbeCollector",
+        "category_name": "WiFi探针采集器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"经度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"180\",\"min\":\"-180\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"longitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"纬度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"90\",\"min\":\"-90\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"latitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"海拔\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"10000\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"m\",\"unitName\":\"米\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"altitude\",\"name\":\"地理位置\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"GeoLocation\",\"name\":\"地理位置\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "2304984696",
+        "category_key": "WifiTemplate",
+        "category_name": "Wifi功能模板",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":255},\"dataType\":\"TEXT\",\"description\":\"\",\"identifier\":\"WIFI_Band\",\"name\":\"频段\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"-1\",\"min\":\"-127\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"WiFI_RSSI\",\"name\":\"信号强度\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":255},\"dataType\":\"TEXT\",\"description\":\"\",\"identifier\":\"WIFI_AP_BSSID\",\"name\":\"热点BSSID\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"255\",\"min\":\"1\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"WIFI_Channel\",\"name\":\"信道\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"127\",\"min\":\"-127\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"WiFI_SNR\",\"name\":\"信噪比\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "2420960210",
+        "category_key": "SensorSignalCollector",
+        "category_name": "传感器信号采集器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"低电平信号\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"高电平信号\",\"value\":1}],\"dataType\":\"BOOL\",\"identifier\":\"HighLowLevelSignal\",\"name\":\"高低电平信号\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "2712049720",
+        "category_key": "EmergencyLight",
+        "category_name": "应急照明灯",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"经度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"180\",\"min\":\"-180\",\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Longitude\",\"name\":\"经度\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"纬度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"90\",\"min\":\"-90\",\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Latitude\",\"name\":\"纬度\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"海拔\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"9999\",\"min\":\"0\",\"step\":\"0.01\",\"unit\":\"m\",\"unitName\":\"米\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Altitude\",\"name\":\"海拔\"}],\"dataType\":\"STRUCT\",\"identifier\":\"GeoLocation\",\"name\":\"地理位置\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"identifier\":\"WorkSwitch\",\"name\":\"运行开关\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "278840337",
+        "category_key": "Humidifier",
+        "category_name": "加湿器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"IonsSwitch\",\"name\":\"负离子开关\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"TargetHumidity\",\"name\":\"目标湿度\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"HeatSwitch\",\"name\":\"加热开关\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"ScreenSwitch\",\"name\":\"屏显开关\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"ConstantHumiditySwitch\",\"name\":\"恒湿开关\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"缺水\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"WaterShortage\",\"name\":\"缺水状态\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"CurrentHumidity\",\"name\":\"当前湿度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"静音\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"低档\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"中档\",\"value\":2},{\"dataType\":\"ENUM\",\"name\":\"高档\",\"value\":3},{\"dataType\":\"ENUM\",\"name\":\"最高档\",\"value\":4}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"SprayLevel\",\"name\":\"雾量档位\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"PowerSwitch\",\"name\":\"电源开关\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"childDataType\":\"STRUCT\",\"customFlag\":true,\"dataSpecsList\":[{\"childDataType\":\"TEXT\",\"childName\":\"定时时间\",\"childSpecsDTO\":{\"dataType\":\"TEXT\",\"length\":255},\"dataSpecs\":{\"$ref\":\"$.properties[9].dataSpecs.dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Timer\",\"name\":\"本地定时\"},{\"childDataType\":\"BOOL\",\"childEnumSpecsDTO\":[{\"dataType\":\"BOOL\",\"name\":\"关\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开\",\"value\":1}],\"childName\":\"启用\",\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开\",\"value\":1}],\"dataType\":\"STRUCT\",\"identifier\":\"Enable\",\"name\":\"本地定时\"},{\"childDataType\":\"BOOL\",\"childEnumSpecsDTO\":[{\"dataType\":\"BOOL\",\"name\":\"无效\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"有效\",\"value\":1}],\"childName\":\"可执行\",\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"无效\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"有效\",\"value\":1}],\"dataType\":\"STRUCT\",\"identifier\":\"IsValid\",\"name\":\"本地定时\"}],\"dataType\":\"ARRAY\",\"size\":5},\"dataType\":\"ARRAY\",\"description\":\"\",\"identifier\":\"LocalTimer\",\"name\":\"本地定时\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"故障上报\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"Error\",\"outputData\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"恢复正常\",\"value\":0}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"ErrorCode\",\"name\":\"故障代码\",\"paraOrder\":0}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "3042011376",
+        "category_key": "AcoustoOpticalarm",
+        "category_name": "声光报警设备",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"未报警状态\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"报警状态\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"AlarmStatus\",\"name\":\"报警控制\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"通信正常\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"通信失败\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"设备异常\",\"value\":2}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"WirelessModuleStatus\",\"name\":\"无线转接模块状态\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"经度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"180\",\"min\":\"-180\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[2].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Longitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"纬度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"90\",\"min\":\"-90\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[2].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Latitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"海拔\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"9999\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"m\",\"unitName\":\"米\"},\"dataSpecs\":{\"$ref\":\"$.properties[2].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Altitude\",\"name\":\"地理位置\"},{\"childDataType\":\"ENUM\",\"childEnumSpecsDTO\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"childName\":\"坐标系统\",\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"dataType\":\"STRUCT\",\"identifier\":\"CoordinateSystem\",\"name\":\"地理位置\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"GeoLocation\",\"name\":\"地理位置\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1719127733,
+        "modified": 0,
+        "id": "3210812790",
+        "category_key": "TransmissionDetector",
+        "category_name": "传输检测仪",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"断开\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"闭合\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DO1\",\"name\":\"继电器标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI1\",\"name\":\"网络设备1标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI2\",\"name\":\"网络设备2标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI3\",\"name\":\"网络设备3标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI4\",\"name\":\"网络设备4标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI5\",\"name\":\"网络设备5标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI6\",\"name\":\"网络设备6标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI7\",\"name\":\"网络设备7标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI8\",\"name\":\"外网标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI8\",\"name\":\"外电表示\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"故障\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"DI10\",\"name\":\"网线标识\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"FLOAT\",\"max\":\"1000\",\"min\":\"0\",\"precise\":0,\"step\":\"0.1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"FLOAT\",\"description\":\"屏幕亮度\",\"identifier\":\"AI1\",\"name\":\"电压标识\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "3220738279",
+        "category_key": "Dehumidifier",
+        "category_name": "除湿器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"500\",\"min\":\"300\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"ppm\",\"unitName\":\"百万分率\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CO2\",\"name\":\"二氧化碳浓度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"CurrentHumidity\",\"name\":\"当前相对湿度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"55\",\"min\":\"-20\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°C\",\"unitName\":\"摄氏度\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentTemperature\",\"name\":\"当前温度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"3\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"mg/m³\",\"unitName\":\"毫克每立方米\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"HCHO\",\"name\":\"甲醛浓度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"停止\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"摇摆\",\"value\":1}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"HorizontalAdjustment\",\"name\":\"出风口水平调节\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"打开\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"Ions\",\"name\":\"健康_离子团\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"500\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"μg/m³\",\"unitName\":\"微克每立方米\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"PM25\",\"name\":\"PM25值\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"10000\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"h\",\"unitName\":\"小时\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"Runtime\",\"name\":\"运行时间\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"打开\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"PowerSwitch\",\"name\":\"电源开关\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"TargetHumidity\",\"name\":\"目标温度\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"3\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"mg/m³\",\"unitName\":\"毫克每立方米\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"TVOC\",\"name\":\"TVOC_VOC浓度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"打开\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"UV\",\"name\":\"紫外线杀菌\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"停止\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"摆动\",\"value\":1}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"VerticalAdjustment\",\"name\":\"出风口垂直调节\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"自动\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"静音档\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"低档\",\"value\":2},{\"dataType\":\"ENUM\",\"name\":\"中档\",\"value\":3},{\"dataType\":\"ENUM\",\"name\":\"高档\",\"value\":4},{\"dataType\":\"ENUM\",\"name\":\"最高档\",\"value\":5}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"WindSpeed\",\"name\":\"风速\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"自动模式\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"手动模式\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"干衣模式\",\"value\":2}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"WorkMode\",\"name\":\"工作模式\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"故障上报\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"Error\",\"outputData\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"恢复正常\",\"value\":0}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"ErrorCode\",\"name\":\"故障代码\",\"paraOrder\":0}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "3269226167",
+        "category_key": "Siren",
+        "category_name": "声光报警器",
+        "thing_model_json": "{\"services\":[{\"callType\":\"ASYNC\",\"custom\":false,\"description\":\"\",\"identifier\":\"ActivateAlarm\",\"inputParams\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"停止报警\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"系统撤防提示\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"系统布防提示\",\"value\":2},{\"dataType\":\"ENUM\",\"name\":\"防盗报警\",\"value\":3},{\"dataType\":\"ENUM\",\"name\":\"火警\",\"value\":4},{\"dataType\":\"ENUM\",\"name\":\"紧急情况报警\",\"value\":5},{\"dataType\":\"ENUM\",\"name\":\"110报警\",\"value\":6}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"AlarmMode\",\"name\":\"报警模式\",\"paraOrder\":0}],\"outputParams\":[],\"required\":false,\"serviceName\":\"触发报警\"}],\"properties\":[],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"故障上报\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"Error\",\"outputData\":[{\"custom\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"ErrorCode\",\"name\":\"故障代码\",\"paraOrder\":0}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "3326107090",
+        "category_key": "Platinum_Temperature",
+        "category_name": "铂电阻温度传感器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"200\",\"min\":\"-200\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"℃\",\"unitName\":\"摄氏度\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentTemperature\",\"name\":\"当前温度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "3382381958",
+        "category_key": "Light",
+        "category_name": "灯",
+        "thing_model_json": "{\"services\":[{\"callType\":\"ASYNC\",\"custom\":false,\"description\":\"\",\"identifier\":\"ToggleLightSwitch\",\"inputParams\":[],\"outputParams\":[],\"required\":false,\"serviceName\":\"翻转主灯开关\"},{\"callType\":\"ASYNC\",\"custom\":false,\"description\":\"\",\"identifier\":\"SetLightSwitchTimer\",\"inputParams\":[{\"custom\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"1440\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"min\",\"unitName\":\"分\"},\"dataType\":\"DOUBLE\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"Timer\",\"name\":\"计时器\",\"paraOrder\":0},{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"LightSwitch\",\"name\":\"主灯开关\",\"paraOrder\":1}],\"outputParams\":[],\"required\":false,\"serviceName\":\"设置主灯开关倒计时\"},{\"callType\":\"ASYNC\",\"custom\":false,\"description\":\"\",\"identifier\":\"StopCountdown\",\"inputParams\":[],\"outputParams\":[],\"required\":false,\"serviceName\":\"停止倒计时\"},{\"callType\":\"ASYNC\",\"custom\":false,\"description\":\"音乐律动的标准服务\",\"identifier\":\"Rhythm\",\"inputParams\":[{\"custom\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"360\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataType\":\"INT\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"Hue\",\"name\":\"Hue\",\"paraOrder\":0},{\"custom\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"Saturation\",\"name\":\"Saturation\",\"paraOrder\":1},{\"custom\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"Value\",\"name\":\"Value\",\"paraOrder\":2},{\"custom\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"250\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"ms\",\"unitName\":\"毫秒\"},\"dataType\":\"INT\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"LightDuration\",\"name\":\"LightDuration\",\"paraOrder\":3}],\"outputParams\":[],\"required\":false,\"serviceName\":\"Rhythm\"},{\"callType\":\"SYNC\",\"custom\":false,\"description\":\"\",\"identifier\":\"Rhythm2\",\"inputParams\":[],\"outputParams\":[],\"required\":false,\"serviceName\":\"Rhythm2\"},{\"callType\":\"ASYNC\",\"custom\":false,\"description\":\"\",\"identifier\":\"CommonService\",\"inputParams\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"setProps\",\"value\":0}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"method\",\"name\":\"方法\",\"paraOrder\":0},{\"custom\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":2048},\"dataType\":\"TEXT\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"params\",\"name\":\"参数\",\"paraOrder\":1},{\"custom\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"65535\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"flag\",\"name\":\"特性\",\"paraOrder\":2},{\"custom\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":30},\"dataType\":\"TEXT\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"seq\",\"name\":\"序列号\",\"paraOrder\":3}],\"outputParams\":[],\"required\":false,\"serviceName\":\"标准服务\"}],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"INT\",\"childName\":\"红色\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"255\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Red\",\"name\":\"RGB调色\"},{\"childDataType\":\"INT\",\"childName\":\"绿色\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"255\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Green\",\"name\":\"RGB调色\"},{\"childDataType\":\"INT\",\"childName\":\"蓝色\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"255\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Blue\",\"name\":\"RGB调色\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"RGBColor\",\"name\":\"RGB调色\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"LightSwitch\",\"name\":\"主灯开关\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开启\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"NightLightSwitch\",\"name\":\"夜灯开关\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"手动\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"阅读\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"影院\",\"value\":2},{\"dataType\":\"ENUM\",\"name\":\"夜灯\",\"value\":3},{\"dataType\":\"ENUM\",\"name\":\"生活\",\"value\":4},{\"dataType\":\"ENUM\",\"name\":\"柔和\",\"value\":5}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"WorkMode\",\"name\":\"工作模式\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"7000\",\"min\":\"2000\",\"precise\":0,\"step\":\"1\",\"unit\":\"K\",\"unitName\":\"开尔文\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"ColorTemperature\",\"name\":\"冷暖色温\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"Brightness\",\"name\":\"明暗度\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"色调\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"360\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[6].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Hue\",\"name\":\"HSL调色\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"饱和度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataSpecs\":{\"$ref\":\"$.properties[6].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Saturation\",\"name\":\"HSL调色\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"亮度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataSpecs\":{\"$ref\":\"$.properties[6].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Lightness\",\"name\":\"HSL调色\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"HSLColor\",\"name\":\"HSL调色\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"色调\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"360\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[7].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Hue\",\"name\":\"HSV调色\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"饱和度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataSpecs\":{\"$ref\":\"$.properties[7].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Saturation\",\"name\":\"HSV调色\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"明度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataSpecs\":{\"$ref\":\"$.properties[7].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Value\",\"name\":\"HSV调色\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"HSVColor\",\"name\":\"HSV调色\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"childDataType\":\"STRUCT\",\"customFlag\":true,\"dataSpecsList\":[{\"childDataType\":\"TEXT\",\"childName\":\"定时时间\",\"childSpecsDTO\":{\"dataType\":\"TEXT\",\"length\":255},\"dataSpecs\":{\"$ref\":\"$.properties[8].dataSpecs.dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Timer\",\"name\":\"本地定时\"},{\"childDataType\":\"BOOL\",\"childEnumSpecsDTO\":[{\"dataType\":\"BOOL\",\"name\":\"关\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开\",\"value\":1}],\"childName\":\"启用\",\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"开\",\"value\":1}],\"dataType\":\"STRUCT\",\"identifier\":\"Enable\",\"name\":\"本地定时\"},{\"childDataType\":\"BOOL\",\"childEnumSpecsDTO\":[{\"dataType\":\"BOOL\",\"name\":\"无效\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"有效\",\"value\":1}],\"childName\":\"可执行\",\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"无效\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"有效\",\"value\":1}],\"dataType\":\"STRUCT\",\"identifier\":\"IsValid\",\"name\":\"本地定时\"}],\"dataType\":\"ARRAY\",\"size\":128},\"dataType\":\"ARRAY\",\"description\":\"用于为设备配置本地控制，其中前三个参数必选，其它参数自主填写，用于表示该产品哪些功能作为“可被本地控制的功能”，这些参数请和设备的标准功能保持一致。\",\"identifier\":\"LocalTimer\",\"name\":\"本地定时\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"childDataType\":\"STRUCT\",\"customFlag\":true,\"dataSpecsList\":[{\"childDataType\":\"INT\",\"childName\":\"色调\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"360\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[9].dataSpecs.dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Hue\",\"name\":\"色调\"},{\"childDataType\":\"INT\",\"childName\":\"饱和度\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataSpecs\":{\"$ref\":\"$.properties[9].dataSpecs.dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Saturation\",\"name\":\"饱和度\"},{\"childDataType\":\"INT\",\"childName\":\"明度\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataSpecs\":{\"$ref\":\"$.properties[9].dataSpecs.dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Value\",\"name\":\"明度\"},{\"childDataType\":\"BOOL\",\"childEnumSpecsDTO\":[{\"dataType\":\"BOOL\",\"name\":\"运行\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":1}],\"childName\":\"启用\",\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"运行\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":1}],\"dataType\":\"STRUCT\",\"identifier\":\"Enable\",\"name\":\"启用\"}],\"dataType\":\"ARRAY\",\"size\":6},\"dataType\":\"ARRAY\",\"identifier\":\"ColorArr\",\"name\":\"颜色数组\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"ColorSpeed\",\"name\":\"变色速度\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"C\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"CW\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"RGB\",\"value\":2},{\"dataType\":\"ENUM\",\"name\":\"RGBC\",\"value\":3},{\"dataType\":\"ENUM\",\"name\":\"RGBCW\",\"value\":4}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"LightType\",\"name\":\"灯类型\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"mono\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"color\",\"value\":1}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"LightMode\",\"name\":\"灯模式\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"1440\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"min\",\"unitName\":\"分\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CountdownRemainingTime\",\"name\":\"倒计时剩余时间\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"INT\",\"childName\":\"色调\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"360\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[14].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Hue\",\"name\":\"场景颜色\"},{\"childDataType\":\"INT\",\"childName\":\"饱和度\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataSpecs\":{\"$ref\":\"$.properties[14].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Saturation\",\"name\":\"场景颜色\"},{\"childDataType\":\"INT\",\"childName\":\"明度\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataSpecs\":{\"$ref\":\"$.properties[14].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Value\",\"name\":\"场景颜色\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"ScenesColor\",\"name\":\"场景颜色\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"停止\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"正常\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"Heartbeat\",\"name\":\"心跳\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"ENUM\",\"childEnumSpecsDTO\":[{\"dataType\":\"ENUM\",\"name\":\"白光\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"彩光\",\"value\":1}],\"childName\":\"灯模式\",\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"白光\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"彩光\",\"value\":1}],\"dataType\":\"STRUCT\",\"identifier\":\"LightMode\",\"name\":\"灯场景\"},{\"childDataType\":\"INT\",\"childName\":\"变色速度\",\"childSpecsDTO\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataSpecs\":{\"$ref\":\"$.properties[16].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"ColorSpeed\",\"name\":\"灯场景\"},{\"childDataType\":\"ENUM\",\"childEnumSpecsDTO\":[{\"dataType\":\"ENUM\",\"name\":\"常亮\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"闪烁\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"渐变\",\"value\":2}],\"childName\":\"场景模式\",\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"常亮\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"闪烁\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"渐变\",\"value\":2}],\"dataType\":\"STRUCT\",\"identifier\":\"SceneMode\",\"name\":\"灯场景\"},{\"childDataType\":\"TEXT\",\"childName\":\"灯颜色\",\"childSpecsDTO\":{\"dataType\":\"TEXT\",\"length\":2048},\"dataSpecs\":{\"$ref\":\"$.properties[16].dataSpecsList[3].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"ColorArr\",\"name\":\"灯场景\"},{\"childDataType\":\"TEXT\",\"childName\":\"明暗度\",\"childSpecsDTO\":{\"dataType\":\"TEXT\",\"length\":2048},\"dataSpecs\":{\"$ref\":\"$.properties[16].dataSpecsList[4].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Brightness\",\"name\":\"灯场景\"},{\"childDataType\":\"BOOL\",\"childEnumSpecsDTO\":[{\"dataType\":\"BOOL\",\"name\":\"已停止\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"运行中\",\"value\":1}],\"childName\":\"启用\",\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"已停止\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"运行中\",\"value\":1}],\"dataType\":\"STRUCT\",\"identifier\":\"Enable\",\"name\":\"灯场景\"},{\"childDataType\":\"TEXT\",\"childName\":\"场景标识\",\"childSpecsDTO\":{\"dataType\":\"TEXT\",\"length\":100},\"dataSpecs\":{\"$ref\":\"$.properties[16].dataSpecsList[6].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"SceneId\",\"name\":\"灯场景\"},{\"childDataType\":\"TEXT\",\"childName\":\"场景参数\",\"childSpecsDTO\":{\"dataType\":\"TEXT\",\"length\":2048},\"dataSpecs\":{\"$ref\":\"$.properties[16].dataSpecsList[7].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"SceneItems\",\"name\":\"灯场景\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"LightScene\",\"name\":\"灯场景\",\"required\":false,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"TEXT\",\"childName\":\"序列号\",\"childSpecsDTO\":{\"dataType\":\"TEXT\",\"length\":30},\"dataSpecs\":{\"$ref\":\"$.properties[17].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"seq\",\"name\":\"标准服务响应\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"CommonServiceResponse\",\"name\":\"标准服务响应\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"故障上报\",\"eventType\":\"ERROR_EVENT_TYPE\",\"identifier\":\"Error\",\"outputData\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"恢复正常\",\"value\":0}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"ErrorCode\",\"name\":\"故障代码\",\"paraOrder\":0}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "3456369516",
+        "category_key": "GeneralGateway",
+        "category_name": "网关",
+        "thing_model_json": "{\"services\":[],\"properties\":[],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "3839407685",
+        "category_key": "SpeechHelper",
+        "category_name": "语音助手",
+        "thing_model_json": "{\"services\":[{\"callType\":\"ASYNC\",\"custom\":false,\"description\":\"\",\"identifier\":\"AnnounceTTSText\",\"inputParams\":[{\"custom\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":2048,\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"TEXT\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"text\",\"name\":\"TTS文本\",\"paraOrder\":0},{\"custom\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":128,\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"TEXT\",\"direction\":\"PARAM_INPUT\",\"identifier\":\"voice\",\"name\":\"音色\",\"paraOrder\":1}],\"outputParams\":[],\"required\":true,\"serviceName\":\"播报TTS文本\"}],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"Volume\",\"name\":\"音量\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"上报ASR文本\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"ReportASRText\",\"outputData\":[{\"custom\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":2048,\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"TEXT\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"text\",\"name\":\"ASR文本内容\",\"paraOrder\":0},{\"custom\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"200\",\"min\":\"0\",\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"age\",\"name\":\"声纹识别的年龄\",\"paraOrder\":1},{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"女\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"男\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"未知\",\"value\":2}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"gender\",\"name\":\"声纹识别的性别\",\"paraOrder\":2},{\"custom\":false,\"dataSpecs\":{\"childDataType\":\"DOUBLE\",\"customFlag\":true,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"step\":\"0.01\"},\"dataType\":\"ARRAY\",\"size\":128},\"dataType\":\"ARRAY\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"VoiceprintFeature\",\"name\":\"声纹识别特征向量\",\"paraOrder\":3}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "3856876065",
+        "category_key": "SceneSwitch",
+        "category_name": "场景开关",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"BatteryPercentage\",\"name\":\"电池电量\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"故障上报\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"Error\",\"outputData\":[{\"custom\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"ErrorCode\",\"name\":\"故障代码\",\"paraOrder\":0}],\"required\":true},{\"custom\":false,\"description\":\"\",\"eventName\":\"键值信息上报\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"KeyValueNotification\",\"outputData\":[{\"custom\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"KeyValue\",\"name\":\"键值\",\"paraOrder\":0}],\"required\":false}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "3964812875",
+        "category_key": "LightingFacility",
+        "category_name": "灯光设备",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"BOOL\",\"name\":\"关闭\",\"value\":0},{\"dataType\":\"BOOL\",\"name\":\"打开\",\"value\":1}],\"dataType\":\"BOOL\",\"description\":\"\",\"identifier\":\"LightStatus\",\"name\":\"灯的状态\",\"required\":true,\"rwFlag\":\"WRITE_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"通信正常\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"通信失败\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"设备异常\",\"value\":2}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"LightLuxModuleStatus\",\"name\":\"光照度模块状态\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"经度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"180\",\"min\":\"-180\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[2].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Longitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"纬度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"90\",\"min\":\"-90\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[2].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Latitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"海拔\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"9999\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"m\",\"unitName\":\"米\"},\"dataSpecs\":{\"$ref\":\"$.properties[2].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Altitude\",\"name\":\"地理位置\"},{\"childDataType\":\"ENUM\",\"childEnumSpecsDTO\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"childName\":\"坐标系统\",\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"dataType\":\"STRUCT\",\"identifier\":\"CoordinateSystem\",\"name\":\"地理位置\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"GeoLocation\",\"name\":\"地理位置\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "4083888845",
+        "category_key": "TempHumiUnit",
+        "category_name": "温湿度采集单元",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"80\",\"min\":\"-40\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°C\",\"unitName\":\"摄氏度\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentTemperature\",\"name\":\"当前温度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"100\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentHumidity\",\"name\":\"当前湿度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"5\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"V\",\"unitName\":\"伏特\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentVoltage\",\"name\":\"当前电压\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"故障上报\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"Error\",\"outputData\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"恢复正常\",\"value\":0}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"ErrorCode\",\"name\":\"故障代码\",\"paraOrder\":0}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "4128652051",
+        "category_key": "LightEnsor",
+        "category_name": "光照传感器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"100000\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"DOUBLE\",\"description\":\"单位，为lux，请补充并修改\",\"identifier\":\"Light\",\"name\":\"光照度\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "510888261",
+        "category_key": "EnvironmentalPerception",
+        "category_name": "环境感知",
+        "thing_model_json": "{\"services\":[],\"properties\":[],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "532419099",
+        "category_key": "IRRemoteController",
+        "category_name": "红外遥控器",
+        "thing_model_json": "{\"services\":[],\"properties\":[],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "558524544",
+        "category_key": "EnvironmentalNoiseMonitor",
+        "category_name": "环境噪音监测",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"经度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"180\",\"min\":\"-180\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Longitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"纬度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"180\",\"min\":\"-180\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Latitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"海拔\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"9999\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"m\",\"unitName\":\"米\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Altitude\",\"name\":\"地理位置\"},{\"childDataType\":\"ENUM\",\"childEnumSpecsDTO\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"childName\":\"坐标系统\",\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"dataType\":\"STRUCT\",\"identifier\":\"CoordinateSystem\",\"name\":\"地理位置\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"GeoLocation\",\"name\":\"地理位置\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "560288509",
+        "category_key": "HomeLinkEdgeGateway",
+        "category_name": "全屋边缘网关",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":2048},\"dataType\":\"TEXT\",\"description\":\"\",\"identifier\":\"UnbindDeviceList\",\"name\":\"LCA未配网子设备列表\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "730017077",
+        "category_key": "Networking",
+        "category_name": "网络设备",
+        "thing_model_json": "{\"services\":[],\"properties\":[],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "735931919",
+        "category_key": "Lamp",
+        "category_name": "灯控开关",
+        "thing_model_json": "{\"services\":[{\"callType\":\"ASYNC\",\"custom\":false,\"description\":\"\",\"identifier\":\"StopCountdown\",\"inputParams\":[],\"outputParams\":[],\"required\":true,\"serviceName\":\"停止倒计时\"}],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"4000\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"W\",\"unitName\":\"瓦特\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentPower\",\"name\":\"当前功率\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"16\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"A\",\"unitName\":\"安培\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"Current\",\"name\":\"当前电流\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "76177630",
+        "category_key": "gateway",
+        "category_name": "边缘网关",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"FLOAT\",\"max\":\"100\",\"min\":\"0\",\"precise\":2,\"step\":\"0.1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"FLOAT\",\"description\":\"\",\"identifier\":\"memory_usage\",\"name\":\"内存使用率\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":255},\"dataType\":\"TEXT\",\"description\":\"\",\"identifier\":\"gateway_version\",\"name\":\"网关版本\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"FLOAT\",\"max\":\"100\",\"min\":\"0\",\"precise\":2,\"step\":\"0.1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"FLOAT\",\"description\":\"\",\"identifier\":\"cpu_usage\",\"name\":\"CPU使用率\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"TEXT\",\"length\":255},\"dataType\":\"TEXT\",\"description\":\"\",\"identifier\":\"system_info\",\"name\":\"系统信息\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"2147483647\",\"min\":\"0\",\"precise\":1,\"step\":\"0.01\",\"unit\":\"B\",\"unitName\":\"字节\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"memory_total\",\"name\":\"内存总量\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"2147483647\",\"min\":\"0\",\"precise\":1,\"step\":\"0.01\",\"unit\":\"B\",\"unitName\":\"字节\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"memory_free\",\"name\":\"内存剩余量\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"128\",\"min\":\"1\",\"precise\":0,\"step\":\"1\",\"unit\":\"\",\"unitName\":\"无\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"cpu_core_number\",\"name\":\"CPU内核数量\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"FLOAT\",\"max\":\"100\",\"min\":\"0\",\"precise\":2,\"step\":\"0.1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"FLOAT\",\"description\":\"\",\"identifier\":\"disk_usage\",\"name\":\"磁盘使用率\",\"required\":true,\"rwFlag\":\"READ_WRITE\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "793181414",
+        "category_key": "HazardWarningLamp",
+        "category_name": "危险报警器",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"80\",\"min\":\"-40\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°C\",\"unitName\":\"摄氏度\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentTemperature\",\"name\":\"当前温度\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"DOUBLE\",\"max\":\"250\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"V\",\"unitName\":\"伏特\"},\"dataType\":\"DOUBLE\",\"description\":\"\",\"identifier\":\"CurrentVoltage\",\"name\":\"当前电压\",\"required\":false,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"故障上报\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"Error\",\"outputData\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"无故障\",\"value\":0}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"ErrorCode\",\"name\":\"故障代码\",\"paraOrder\":0}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "840385897",
+        "category_key": "other",
+        "category_name": "其他设备",
+        "thing_model_json": "{\"services\":[],\"properties\":[],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "894390761",
+        "category_key": "RemoteTerminalUnit",
+        "category_name": "远程监测终端",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"经度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"180\",\"min\":\"-180\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Longitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"纬度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"90\",\"min\":\"-90\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Latitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"海拔\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"9999\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"m\",\"unitName\":\"米\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Altitude\",\"name\":\"地理位置\"},{\"childDataType\":\"ENUM\",\"childEnumSpecsDTO\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"childName\":\"坐标系统\",\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"dataType\":\"STRUCT\",\"identifier\":\"CoordinateSystem\",\"name\":\"地理位置\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"GeoLocation\",\"name\":\"地理位置\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "918772023",
+        "category_key": "AlarmButton",
+        "category_name": "手动求救报警",
+        "thing_model_json": "{\"services\":[],\"properties\":[{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"childDataType\":\"DOUBLE\",\"childName\":\"经度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"180\",\"min\":\"-180\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[0].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Longitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"纬度\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"90\",\"min\":\"-90\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"°\",\"unitName\":\"度\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[1].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Latitude\",\"name\":\"地理位置\"},{\"childDataType\":\"DOUBLE\",\"childName\":\"海拔\",\"childSpecsDTO\":{\"dataType\":\"DOUBLE\",\"max\":\"9999\",\"min\":\"0\",\"precise\":7,\"step\":\"0.01\",\"unit\":\"m\",\"unitName\":\"米\"},\"dataSpecs\":{\"$ref\":\"$.properties[0].dataSpecsList[2].childSpecsDTO\"},\"dataType\":\"STRUCT\",\"identifier\":\"Altitude\",\"name\":\"地理位置\"},{\"childDataType\":\"ENUM\",\"childEnumSpecsDTO\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"childName\":\"坐标系统\",\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"WGS_84\",\"value\":1},{\"dataType\":\"ENUM\",\"name\":\"GCJ_02\",\"value\":2}],\"dataType\":\"STRUCT\",\"identifier\":\"CoordinateSystem\",\"name\":\"地理位置\"}],\"dataType\":\"STRUCT\",\"description\":\"\",\"identifier\":\"GeoLocation\",\"name\":\"地理位置\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecs\":{\"dataType\":\"INT\",\"max\":\"100\",\"min\":\"0\",\"precise\":0,\"step\":\"1\",\"unit\":\"%\",\"unitName\":\"百分比\"},\"dataType\":\"INT\",\"description\":\"\",\"identifier\":\"BatteryLevel\",\"name\":\"电池电量\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true},{\"custom\":false,\"customFlag\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"正常\",\"value\":0},{\"dataType\":\"ENUM\",\"name\":\"危险报警\",\"value\":1}],\"dataType\":\"ENUM\",\"description\":\"\",\"identifier\":\"AlarmState\",\"name\":\"报警状态\",\"required\":true,\"rwFlag\":\"READ_ONLY\",\"std\":true}],\"events\":[{\"custom\":false,\"description\":\"\",\"eventName\":\"故障上报\",\"eventType\":\"INFO_EVENT_TYPE\",\"identifier\":\"Error\",\"outputData\":[{\"custom\":false,\"dataSpecsList\":[{\"dataType\":\"ENUM\",\"name\":\"无故障\",\"value\":0}],\"dataType\":\"ENUM\",\"direction\":\"PARAM_OUTPUT\",\"identifier\":\"ErrorCode\",\"name\":\"故障代码\",\"paraOrder\":0}],\"required\":true}]}"
+      },
+      {
+        "created": 1698826367,
+        "modified": 0,
+        "id": "938809676",
+        "category_key": "Wristband",
+        "category_name": "手环",
+        "thing_model_json": "{\"services\":[],\"properties\":[],\"events\":[]}"
+      }
+    ]
+  },
