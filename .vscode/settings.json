@@ -25,6 +25,6 @@
         "**/target": true
     },
     "marscode.codeCompletionPro": {
-        "enableCodeCompletionPro": true
+        "enableCodeCompletionPro": false
     }
 }

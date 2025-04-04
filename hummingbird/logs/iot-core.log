@@ -1108,3 +1108,353 @@
 [32m[info] [0m2025/04/04 01:54:58 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
 [32m[info] [0m2025/04/04 01:54:58 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
 [32m[info] [0m2025/04/04 01:54:58 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,3bfdbd8e-26c4-4a8d-9509-4addd9be06ff
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/04 14:33:25 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/04 14:33:35 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/04 14:33:35 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/04 14:33:35 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/04 14:33:35 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[31m[error] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 14:34:27 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,8d39fa07-ed66-4a45-be29-dc307168d7d6
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/04 23:34:28 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/04 23:34:38 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/04 23:34:38 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/04 23:34:38 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/04 23:34:38 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[31m[error] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:35:24 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,10c5cb19-a4a4-494b-8126-44c9bb0e33db
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/04 23:39:53 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/04 23:40:03 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/04 23:40:03 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/04 23:40:03 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/04 23:40:03 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:41:20 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,bc2059ec-5cc1-43d1-8117-db9761685eec
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/04 23:45:29 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/04 23:45:39 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/04 23:45:39 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/04 23:45:39 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/04 23:45:39 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[31m[error] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[31m[error] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:45:43 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,2a172daa-9b3d-4d1a-aec9-05c7326d62d7
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/04 23:45:45 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/04 23:45:55 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/04 23:45:55 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/04 23:45:55 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/04 23:45:55 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[31m[error] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[31m[error] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:46:58 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,9211c086-deb0-46d5-bb70-0dfc3ab2109f
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/04 23:48:12 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/04 23:48:22 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/04 23:48:22 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/04 23:48:22 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/04 23:48:22 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[31m[error] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:48:52 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,e2c700a6-2f39-4c97-87d4-b3f87b6b3099
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/04 23:52:01 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/04 23:52:11 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/04 23:52:11 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/04 23:52:11 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/04 23:52:11 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:53:46 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,eab6f9e0-43d5-493c-8c40-aea5fd9e9fec
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/04 23:55:31 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/04 23:55:41 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/04 23:55:41 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/04 23:55:41 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/04 23:55:41 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[31m[error] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[31m[error] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/04 23:56:39 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,6e4e034d-e64f-49b6-9bc7-98de468086ae
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/05 00:26:25 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/05 00:26:35 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/05 00:26:35 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/05 00:26:35 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/05 00:26:35 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[31m[error] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[31m[error] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/05 00:53:32 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/tools/sqldb/sqlite/gorm.go:65 sqlite open started dataSource: manifest/docker/db-data/core-data/core.db?_timeout=5000
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:113 DatabaseInfo connected
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/hummingbird/core/application/timerapp/timerapp.go:157 edge timer started...
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/tools/mqttclient/mqttclient.go:97 gateway online, mqttclient connected!,997b726b-e354-4c7e-abf4-b05629abfd53
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/hummingbird/core/application/messageapp/ekuipermessage.go:38 ekuiper mqtt connect
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:160 RPC server starting ( 0.0.0.0:57081 )
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/hummingbird/core/initialize/init.go:98 init rpc server
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/hummingbird/core/application/schedule.go:26 init schedule
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:92 Web server starting (0.0.0.0:58081)
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:44 start WebBootstrap BootstrapHandler in...
+[32m[info] [0m2025/04/05 01:03:07 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:73 WebProxy server starting (0.0.0.0:3000)
+[32m[info] [0m2025/04/05 01:03:17 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:50 init ekuiper stream start
+[32m[info] [0m2025/04/05 01:03:17 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:51 ekuiper stream start resp code,400
+[32m[info] [0m2025/04/05 01:03:17 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:65 init ekuiper stream body%!(EXTRA string=Stream command error: Create stream fails: Item mqtt_stream already exists.
+)
+[32m[info] [0m2025/04/05 01:03:17 [iot-core] iot_pj/internal/hummingbird/core/initialize/initdata.go:72 init ekuiper stream plug success
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:68 WebProxy server shutting down
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:152 RPC server shutting down
+[31m[error] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:104 Web server failed: http: Server closed
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:107 close to flushImageMap
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 13021865
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:121 close to flushContainerMap
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/driverserviceapp/servicemonitor.go:58 close to DeviceServiceMonitor dsId: 41659352
+[31m[error] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:91 WebProxy server failed: http: Server closed
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/route/webproxy.go:70 WebProxy server shut down
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:154 RPC server shut down
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/pkg/handlers/rpcserver.go:175 RPC server stopped
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/pkg/handlers/httpserver.go:89 Web server shut down
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[mqtt-official-driver]
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: mqtt-official-driver
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/app.go:57 stop docker instance[http-official-driver]
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:333 ContainerStop fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/application/dmi/docker/manager.go:336 ContainerKill fail Error response from daemon: No such container: http-official-driver
+[32m[info] [0m2025/04/05 01:12:32 [iot-core] iot_pj/internal/hummingbird/core/bootstrap/database/database.go:123 DatabaseInfo disconnected
