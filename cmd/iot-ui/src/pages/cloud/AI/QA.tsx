@@ -1,78 +1,211 @@
-import React, { useState } from 'react'
-import { Card, Input, Button, List, Avatar } from 'antd'
-import { MessageOutlined, UserOutlined } from '@ant-design/icons'
+import React, { useState, useRef, useEffect } from 'react'
+import {
+  Card,
+  Input,
+  Button,
+  List,
+  Avatar,
+  Typography,
+  Spin,
+  message,
+} from 'antd'
+import { SendOutlined, RobotOutlined, UserOutlined } from '@ant-design/icons'
+import { getAIResponse } from '@/api/ai'
+import type { AIRequestParams } from '@/types/ai'
 
-interface Message {
-  id: string
-  content: string
-  isUser: boolean
+const { TextArea } = Input
+const { Title, Paragraph } = Typography
+
+interface ChatMessage {
+  id: string;
+  content: string;
+  sender: 'user' | 'ai';
+  timestamp: string;
 }
 
 const AIQAPage: React.FC = () => {
-  const [messages, setMessages] = useState<Message[]>([
-    { id: '1', content: '您好！我是AI助手，请问有什么可以帮您？', isUser: false },
+  const [messages, setMessages] = useState<ChatMessage[]>([
+    {
+      id: '1',
+      content: '您好！我是AI助手，请问有什么可以帮您？',
+      sender: 'ai',
+      timestamp: new Date().toLocaleString(),
+    },
   ])
   const [inputValue, setInputValue] = useState('')
+  const [loading, setLoading] = useState(false)
+  const messagesEndRef = useRef<HTMLDivElement>(null)
 
-  const handleSend = () => {
+  // 滚动到最新消息
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  useEffect(() => {
+    scrollToBottom()
+  }, [messages])
+
+  // 发送消息
+  const handleSend = async () => {
     if (!inputValue.trim()) return
-    const newUserMessage = {
+
+    const userMessage: ChatMessage = {
       id: Date.now().toString(),
       content: inputValue,
-      isUser: true,
+      sender: 'user',
+      timestamp: new Date().toLocaleString(),
     }
-    setMessages([...messages, newUserMessage])
+
+    setMessages((prev) => [...prev, userMessage])
     setInputValue('')
-    // 模拟AI回复
-    setTimeout(() => {
-      const aiReply = {
-        id: (Date.now() + 1).toString(),
-        content: '我已收到您的提问，正在处理中...',
-        isUser: false,
+    setLoading(true)
+
+    try {
+      // 调用AI API
+      const params: AIRequestParams = {
+        prompt: inputValue,
+        model: 'deepseek-ai/DeepSeek-V3',
+        temperature: 0.7,
+        max_tokens: 1024,
       }
-      setMessages(prev => [...prev, aiReply])
-    }, 1000)
+
+      const response = await getAIResponse(params)
+
+      // 提取AI回复
+      const aiContent = response.data.choices[0].message.content
+
+      const aiMessage: ChatMessage = {
+        id: Date.now().toString(),
+        content: aiContent,
+        sender: 'ai',
+        timestamp: new Date().toLocaleString(),
+      }
+
+      setMessages((prev) => [...prev, aiMessage])
+    } catch (error) {
+      console.error('Error getting AI response:', error)
+      message.error('获取AI回复失败，请稍后再试')
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  // 处理按键事件
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault()
+      handleSend()
+    }
   }
   return (
-    <Card title="AI问答">
-      <div style={{ height: '500px', overflowY: 'auto', marginBottom: '16px' }}>
-        <List
-          dataSource={messages}
-          renderItem={item => (
-            <List.Item style={{
-              justifyContent: item.isUser ? 'flex-end' : 'flex-start',
-              padding: '8px 0',
-            }}>
-              <div style={{
-                display: 'flex',
-                alignItems: 'center',
-                maxWidth: '80%',
-              }}>
-                {!item.isUser && <Avatar icon={<MessageOutlined />} style={{ marginRight: '8px' }} />}
-                <div style={{
-                  background: item.isUser ? '#1890ff' : '#f0f0f0',
-                  color: item.isUser ? '#fff' : '#000',
-                  padding: '8px 12px',
-                  borderRadius: '4px',
-                }}>
-                  {item.content}
-                </div>
-                {item.isUser && <Avatar icon={<UserOutlined />} style={{ marginLeft: '8px' }} />}
-              </div>
-            </List.Item>
+    <Card
+      title={
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <RobotOutlined style={{ marginRight: 8 }} />
+          <span>AI 问答助手</span>
+        </div>
+      }
+      style={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+      bodyStyle={{
+        flex: 1,
+        display: 'flex',
+        flexDirection: 'column',
+        overflow: 'hidden',
+      }}
+    >
+      <div style={{ flex: 1, overflow: 'auto', marginBottom: 16 }}>
+        {messages.length === 0
+          ? (
+            <div style={{ textAlign: 'center', padding: '40px 0' }}>
+              <Title level={4}>欢迎使用AI问答助手</Title>
+              <Paragraph>您可以向我询问关于设备、数据和系统的任何问题</Paragraph>
+            </div>
+          )
+          : (
+            <List
+              itemLayout="horizontal"
+              dataSource={messages}
+              renderItem={(item) => (
+                <List.Item
+                  style={{
+                    justifyContent:
+                    item.sender === 'user' ? 'flex-end' : 'flex-start',
+                    padding: '8px 16px',
+                  }}
+                >
+                  <div
+                    style={{
+                      display: 'flex',
+                      flexDirection:
+                      item.sender === 'user' ? 'row-reverse' : 'row',
+                      maxWidth: '80%',
+                    }}
+                  >
+                    <Avatar
+                      icon={
+                        item.sender === 'user'
+                          ? (
+                            <UserOutlined />
+                          )
+                          : (
+                            <RobotOutlined />
+                          )
+                      }
+                      style={{
+                        backgroundColor:
+                        item.sender === 'user' ? '#1890ff' : '#52c41a',
+                        marginLeft: item.sender === 'user' ? 8 : 0,
+                        marginRight: item.sender === 'user' ? 0 : 8,
+                      }}
+                    />
+                    <div
+                      style={{
+                        background:
+                        item.sender === 'user' ? '#e6f7ff' : '#f6ffed',
+                        padding: '8px 12px',
+                        borderRadius: 8,
+                        position: 'relative',
+                      }}
+                    >
+                      <div>{item.content}</div>
+                      <div
+                        style={{
+                          fontSize: 12,
+                          color: '#999',
+                          marginTop: 4,
+                          textAlign: item.sender === 'user' ? 'right' : 'left',
+                        }}
+                      >
+                        {item.timestamp}
+                      </div>
+                    </div>
+                  </div>
+                </List.Item>
+              )}
+            />
           )}
-        />
+        <div ref={messagesEndRef} />
       </div>
-      <Input.Group compact style={{ display: 'flex' }}>
-        <Input
+
+      <div style={{ display: 'flex', marginTop: 'auto' }}>
+        <TextArea
           value={inputValue}
-          onChange={e => setInputValue(e.target.value)}
-          onPressEnter={handleSend}
+          onChange={(e) => setInputValue(e.target.value)}
+          onKeyPress={handleKeyPress}
           placeholder="输入您的问题..."
-          style={{ flex: 1 }}
+          autoSize={{ minRows: 2, maxRows: 4 }}
+          disabled={loading}
+          style={{ flex: 1, marginRight: 8 }}
         />
-        <Button type="primary" onClick={handleSend}>发送</Button>
-      </Input.Group>
+        <Button
+          type="primary"
+          icon={loading ? <Spin size="small" /> : <SendOutlined />}
+          onClick={handleSend}
+          disabled={loading || !inputValue.trim()}
+        >
+          发送
+        </Button>
+      </div>
     </Card>
   )
 }

@@ -98,6 +98,11 @@ func (d Database) BootstrapHandler(
 		},
 	})
 
+	// Initialize the GetDB function for direct DB access
+	if sqliteClient, ok := dbClient.(*sqlite.Client); ok {
+		sqlite.InitDB(sqliteClient.Pool)
+	}
+
 	// initialize Data db.
 	dataDbClient, err := d.newDataDBClient(lc)
 	if err != nil {

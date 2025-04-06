@@ -23,4 +23,10 @@ chmod:
 
 .PHONY: build
 build:
-	docker buildx build --platform linux/amd64 -t "knight0209/iot-core:3.0" -f cmd/iot-core/Dockerfile --push .
+	# 1. 构建并直接推送至阿里云
+	docker buildx build --platform linux/amd64 \
+  	-t "crpi-v6zzwgfx1g9e4e2d.cn-hangzhou.personal.cr.aliyuncs.com/knight0209/iot-core:3.0" \
+  	-f cmd/iot-core/Dockerfile \
+  	--push .
+	# 2. 推送至dockerhub（国外）
+	#docker buildx build --platform linux/amd64 -t "knight0209/iot-core:3.0" -f cmd/iot-core/Dockerfile --push .

@@ -27,3 +27,11 @@ export interface APIResponse {
     total_tokens: number;
   };
 }
+
+export interface AIRecommendation {
+  id: number;
+  title: string;
+  content: string;
+  risk_level: 'high' | 'medium' | 'low';
+  timestamp: string;
+}
