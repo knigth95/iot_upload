@@ -12,3 +12,37 @@
 2025-02-23T07:42:47.546Z [34mINFO[0m server/server.go:321 Server shutting down
 2025-02-23T07:42:47.546Z [34mINFO[0m server/server.go:324 Server shut down
 2025-02-23T07:42:47.546Z [34mINFO[0m server/server.go:339 Server stopped
+2025-04-06T08:19:20.818Z [34mINFO[0m client/mqtt_client.go:64 Connected
+2025-04-06T08:19:20.818Z [34mINFO[0m server/server.go:327 Server starting ( [::]:45211 )
+2025-04-06T08:19:20.818Z [34mINFO[0m server/server.go:328 Server start success.
+2025-04-06T08:34:34.390Z [34mINFO[0m service/service.go:234 got stop signal, exit...
+2025-04-06T08:34:34.391Z [34mINFO[0m server/server.go:321 Server shutting down
+2025-04-06T08:34:34.391Z [34mINFO[0m server/server.go:339 Server stopped
+2025-04-06T08:34:34.391Z [34mINFO[0m server/server.go:324 Server shut down
+2025-04-06T10:34:48.596Z [34mINFO[0m client/mqtt_client.go:64 Connected
+2025-04-06T10:34:48.596Z [34mINFO[0m server/server.go:327 Server starting ( [::]:45211 )
+2025-04-06T10:34:48.597Z [34mINFO[0m server/server.go:328 Server start success.
+2025-04-06T10:37:02.173Z [34mINFO[0m server/server.go:136 CreateProductCallback:Data:{id:"84515312" name:"test" description:"aa" NodeType:Device dataFormat:"标准物模型" netType:Ethernet protocolType:"MQTT" properties:{productId:"84515312" name:"光照度" code:"Light" description:"单位，为lux，请补充并修改" required:true accessMode:"R" typeSpec:{type:"float" specs:"{\"min\":\"0\",\"max\":\"100000\",\"step\":\"0.01\",\"unitName\":\"无\"}"}} key:"IMGFpXzpLGIehps"} happenTime:1743935822
+2025-04-06T10:38:46.077Z [34mINFO[0m server/server.go:89 CreateDeviceCallback:Data:{id:"33163360" name:"ESP" description:"aa" product_id:"84515312" status:OffLine secret:"WduqtCDMLxiD"} happenTime:1743935926
+2025-04-06T10:54:10.558Z [34mINFO[0m service/service.go:234 got stop signal, exit...
+2025-04-06T10:54:10.558Z [31mERROR[0m service/service.go:237 call protocol driver stop function error: connection error: desc = "transport: Error while dialing: dial tcp 172.18.0.4:57081: connect: connection refused"
+2025-04-06T10:54:10.559Z [34mINFO[0m server/server.go:321 Server shutting down
+2025-04-06T10:54:10.559Z [34mINFO[0m server/server.go:324 Server shut down
+2025-04-06T10:54:10.559Z [34mINFO[0m server/server.go:339 Server stopped
+2025-04-06T14:47:57.039Z [34mINFO[0m client/mqtt_client.go:64 Connected
+2025-04-06T14:47:57.039Z [34mINFO[0m server/server.go:327 Server starting ( [::]:45211 )
+2025-04-06T14:47:57.039Z [34mINFO[0m server/server.go:328 Server start success.
+2025-04-06T15:50:53.916Z [34mINFO[0m service/service.go:234 got stop signal, exit...
+2025-04-06T15:50:53.929Z [31mERROR[0m service/service.go:237 call protocol driver stop function error: connection error: desc = "transport: Error while dialing: dial tcp 172.18.0.4:57081: connect: connection refused"
+2025-04-06T15:50:53.929Z [34mINFO[0m server/server.go:321 Server shutting down
+2025-04-06T15:50:53.929Z [34mINFO[0m server/server.go:324 Server shut down
+2025-04-06T15:50:53.929Z [34mINFO[0m server/server.go:339 Server stopped
+2025-04-06T17:50:26.743Z [34mINFO[0m client/mqtt_client.go:64 Connected
+2025-04-06T17:50:26.743Z [34mINFO[0m server/server.go:327 Server starting ( [::]:45211 )
+2025-04-06T17:50:26.743Z [34mINFO[0m server/server.go:328 Server start success.
+2025-04-06T18:44:47.232Z [34mINFO[0m server/server.go:136 CreateProductCallback:Data:{id:"47225952" name:"alist" NodeType:Device dataFormat:"标准物模型" netType:Ethernet protocolType:"MQTT" properties:{productId:"47225952" name:"光照度" code:"Light" description:"单位，为lux，请补充并修改" required:true accessMode:"R" typeSpec:{type:"float" specs:"{\"min\":\"0\",\"max\":\"100000\",\"step\":\"0.01\",\"unitName\":\"无\"}"}} key:"WIXnkuHMYZLfGaE"} happenTime:1743965087
+2025-04-06T18:45:49.440Z [34mINFO[0m server/server.go:89 CreateDeviceCallback:Data:{id:"92065460" name:"test-light" product_id:"47225952" status:OffLine secret:"NEUzXPFGkqEG"} happenTime:1743965149
+2025-04-06T18:46:39.653Z [34mINFO[0m server/server.go:121 DeleteDeviceCallback:deviceId:"92065460" happenTime:39
+2025-04-06T18:47:20.027Z [34mINFO[0m server/server.go:167 DeleteProductCallback:productId:"47225952"
+2025-04-06T18:59:49.572Z [34mINFO[0m server/server.go:136 CreateProductCallback:Data:{id:"20601892" name:"alist" NodeType:Device dataFormat:"标准物模型" netType:Ethernet protocolType:"MQTT" properties:{productId:"20601892" name:"光照度" code:"Light" description:"单位，为lux，请补充并修改" required:true accessMode:"R" typeSpec:{type:"float" specs:"{\"min\":\"0\",\"max\":\"100000\",\"step\":\"0.01\",\"unitName\":\"无\"}"}} key:"LwQvuyNhYFmBZHe"} happenTime:1743965989
+2025-04-06T19:00:59.749Z [34mINFO[0m server/server.go:89 CreateDeviceCallback:Data:{id:"44637996" name:"test001" product_id:"84515312" status:OffLine secret:"QKjLxzIivHSl"} happenTime:1743966059

@@ -12,7 +12,7 @@ const aiRequest = async (endpoint: keyof typeof API_ENDPOINTS, params: AIRequest
     url: API_ENDPOINTS[endpoint],
     method: 'post',
     headers: {
-      Authorization: `Bearer sk-iaycrtknyznrwixrqrszzuqxikchjamgyktbxeayczptysjj`,
+      Authorization: 'Bearer sk-iaycrtknyznrwixrqrszzuqxikchjamgyktbxeayczptysjj',
       'Content-Type': 'application/json',
       'HTTP-Referer': 'http://localhost:3000',
       'X-Title': 'IoT Management System',
